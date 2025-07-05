@@ -1,0 +1,191 @@
+/*Main*/
+
+h1 {
+  width: 650px;
+}
+
+.wrapper {
+  width: 1160px;
+}
+
+.maim_img {
+  width: 715px;
+  margin-right: -106px;
+}
+
+.maim_img img {
+  width: 100%;
+}
+
+a.svg_tel {
+  width: 174px;
+}
+
+a.svg_map {
+  width: 396px;
+}
+
+.main_button {
+  margin-right: -224px;
+}
+
+/*
+a.tel {
+    width: 144px;
+}
+
+a.map {
+    width: 366px;
+*/
+/* } */
+
+/*Stoks*/
+
+.stoks_content {
+  width: 920px;
+  padding-top: 60px;
+  padding-left: 104px;
+}
+
+/*Suppliers*/
+
+.suppliers_logo__row {
+  width: 486px;
+}
+
+.suppliers_text {
+  width: 570px;
+}
+
+.globalvet {
+  top: 66px;
+}
+
+.monge {
+  bottom: 80px;
+  right: 50px;
+}
+
+.elanko {
+  right: 98px;
+}
+
+/*Doctors*/
+
+.doctor_img {
+  margin-left: 27px;
+  margin-right: 85px;
+}
+
+.doctor_text {
+  margin-right: 20px;
+}
+
+/*Certificates*/
+
+.certificates_numbers__window {
+  display: flex;
+  width: 940px;
+}
+
+/*articles*/
+.articles_content {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+/*Contact*/
+
+.contact_button {
+  width: 1000px;
+}
+
+/*Footer*/
+
+footer {
+  grid-template-columns: 49fr 31fr;
+}
+
+.footer_info__content {
+  width: 725px;
+  margin-left: 20px;
+}
+
+/*Header*/
+
+nav ul li a {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.button_top {
+  left: 40px;
+}
+
+/*Phono Button*/
+
+#phonoButton {
+  bottom: 30px;
+  right: 25px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*Stock Page Content*/
+
+.stockPage_img div {
+  width: 201px;
+  height: 204px;
+}
+
+.stockPage_img div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stockPage_img div:nth-child(1) {
+  margin-top: -80px;
+}
+.stockPage_img div:nth-child(2) {
+  margin-top: 10px;
+  margin-left: -53px;
+}
+
+.stockPage_img div:nth-child(3) {
+  margin-top: 110px;
+  margin-left: -40px;
+}
+
+/*Services Page Content*/
+
+.servicesPage_img {
+  margin-left: 0px;
+  margin-right: 114px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/*Articles Page*/
+
+.articlesPage_header__img {
+  width: 560px;
+  height: 359px;
+}
+
+.articles_articlesPage {
+  /*   grid-column-gap: 50px;*/
+  grid-row-gap: 80px;
+}
+
+.articles_articlesPage {
+  margin-bottom: 0px;
+}
+
+.articleText_similar div:nth-child(4) {
+  display: none;
+}
+
+.mistake_content a {
+  margin-bottom: 0px;
+}

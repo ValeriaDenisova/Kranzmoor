@@ -1,0 +1,1880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Услуги и цены</title>
+
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1640px)"
+      href="assets/style1600.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1240px)"
+      href="assets/style1200.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1010px)"
+      href="assets/style970.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:780px)"
+      href="assets/style740.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:540px)"
+      href="assets/style500.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Rashi+Hebrew:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="loader">
+      <div class="spinner"><img src="assets/img/loading.svg" alt=""></div>
+  </div>
+    <a name="top"></a>
+    <a class="button_top cursor" href="#top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+      >
+        <path
+          d="M20 10L13 20M20 10L27 20M20 10V31"
+          stroke="#3E3D3D"
+          stroke-width="0.5"
+        />
+      </svg>
+    </a>
+    <!-- Main-->
+    <section>
+      <div class="header">
+        <div class="wrapper">
+          <div class="main_nav nav">
+            <span class="svg burger menu color_hover cursor" id="menuBurger">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+                fill="none"
+              >
+                <path
+                  d="M11 14H31"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M11 21H31"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M11 28H31"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span
+              class="svg search menu mobile_none color_hover cursor"
+              id="navSearch"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                id="searchNavWhite"
+              >
+                <path
+                  d="M16.5507 17.867C15.8937 17.3707 10.1814 11.5043 10.1814 11.5043C9.69696 11.9033 9.13308 12.2163 8.48977 12.4431C7.84645 12.6699 7.15885 12.7834 6.42695 12.7834C4.63187 12.7834 3.11194 12.1608 1.86716 10.9157C0.622388 9.67057 0 8.16257 0 6.39169C0 4.6208 0.622828 3.1128 1.86848 1.86769C3.11414 0.622564 4.62549 0 6.40253 0C8.1796 0 9.68824 0.622564 10.9285 1.86769C12.1687 3.1128 12.7888 4.62161 12.7888 6.39413C12.7888 7.10538 12.6781 7.7808 12.4567 8.4204C12.2353 9.06 11.914 9.6484 11.4929 10.1856C11.4929 10.1856 17.3837 15.7089 17.8804 16.5398C18.3771 17.3707 17.2077 18.3633 16.5507 17.867ZM6.41206 10.9344C7.67261 10.9344 8.74225 10.4915 9.62099 9.60576C10.4997 8.71996 10.9391 7.6486 10.9391 6.39169C10.9391 5.13477 10.4995 4.06341 9.62041 3.17763C8.74129 2.29182 7.67184 1.84892 6.41206 1.84892C5.14324 1.84892 4.06564 2.29182 3.17927 3.17763C2.29291 4.06341 1.84973 5.13477 1.84973 6.39169C1.84973 7.6486 2.29272 8.71996 3.17871 9.60576C4.06469 10.4915 5.14247 10.9344 6.41206 10.9344Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                style="display: none"
+                id="searchNavBlack"
+              >
+                <path
+                  d="M16.5507 17.867C15.8937 17.3707 10.1814 11.5043 10.1814 11.5043C9.69696 11.9033 9.13308 12.2163 8.48977 12.4431C7.84645 12.6699 7.15885 12.7834 6.42695 12.7834C4.63187 12.7834 3.11194 12.1608 1.86716 10.9157C0.622388 9.67057 0 8.16257 0 6.39169C0 4.6208 0.622828 3.1128 1.86848 1.86769C3.11414 0.622564 4.62549 0 6.40253 0C8.1796 0 9.68824 0.622564 10.9285 1.86769C12.1687 3.1128 12.7888 4.62161 12.7888 6.39413C12.7888 7.10538 12.6781 7.7808 12.4567 8.4204C12.2353 9.06 11.914 9.6484 11.4929 10.1856C11.4929 10.1856 17.3837 15.7089 17.8804 16.5398C18.3771 17.3707 17.2077 18.3633 16.5507 17.867ZM6.41206 10.9344C7.67261 10.9344 8.74225 10.4915 9.62099 9.60576C10.4997 8.71996 10.9391 7.6486 10.9391 6.39169C10.9391 5.13477 10.4995 4.06341 9.62041 3.17763C8.74129 2.29182 7.67184 1.84892 6.41206 1.84892C5.14324 1.84892 4.06564 2.29182 3.17927 3.17763C2.29291 4.06341 1.84973 5.13477 1.84973 6.39169C1.84973 7.6486 2.29272 8.71996 3.17871 9.60576C4.06469 10.4915 5.14247 10.9344 6.41206 10.9344Z"
+                  fill="#545454"
+                />
+              </svg>
+
+              <form action="#" style="display: none" id="searchNavForm">
+                <input type="text" />
+                <input type="submit" value="Найти" />
+              </form>
+
+              <span
+                class="search_close"
+                style="display: none"
+                id="searchNavClose"
+                data-close="true"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  data-close="true"
+                  class="close_black"
+                >
+                  <path
+                    data-close="true"
+                    d="M1.40579 13.6478L1.02367 13.7349C0.291312 13.9019 -0.270738 13.0908 0.142857 12.4638L5.58731 7.3596L0.142857 2.25542C-0.239359 1.50112 0.537276 0.684634 1.30975 1.02866L1.40579 1.07143L6.85024 6.1756L12.2947 1.07143L12.5109 0.985798C13.2911 0.676821 14.0097 1.54851 13.5576 2.25542L8.11317 7.3596L13.5576 12.4638C13.9909 13.2257 13.1742 14.0874 12.3902 13.6955L12.2947 13.6478L6.85024 8.54359L1.40579 13.6478Z"
+                    fill="#545454"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  class="close_whiter"
+                  data-close="true"
+                >
+                  <path
+                    d="M1.40579 13.6478L1.02367 13.7349C0.291312 13.9019 -0.270738 13.0908 0.142857 12.4638L5.58731 7.3596L0.142857 2.25542C-0.239359 1.50112 0.537276 0.684634 1.30975 1.02866L1.40579 1.07143L6.85024 6.1756L12.2947 1.07143L12.5109 0.985798C13.2911 0.676821 14.0097 1.54851 13.5576 2.25542L8.11317 7.3596L13.5576 12.4638C13.9909 13.2257 13.1742 14.0874 12.3902 13.6955L12.2947 13.6478L6.85024 8.54359L1.40579 13.6478Z"
+                    fill="white"
+                    data-close="true"
+                  />
+                </svg>
+              </span>
+            </span>
+          </div>
+          <div class="mobile_flex_header">
+            <svg
+              class="cursor"
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="55"
+              viewBox="0 0 60 55"
+              fill="none"
+              id="mobileInfoOpen"
+            >
+              <path
+                d="M19.4224 0.057415C18.4804 0.236767 17.7697 0.572477 16.963 1.2301C16.3087 1.75896 15.8405 2.29702 15.3893 3.02822C12.6986 7.41545 13.6068 14.6539 17.3805 18.802C17.8938 19.3677 18.785 20.1127 19.3942 20.4852C21.391 21.713 23.6361 21.7774 25.4355 20.6599C27.28 19.5102 28.5435 17.2936 29.023 14.3642C29.1414 13.61 29.164 11.2738 29.0512 10.5012C28.5886 7.27289 27.4097 4.601 25.5652 2.58214C25.1026 2.08088 24.1945 1.32668 23.6248 0.972572C23.0945 0.646059 22.0905 0.222971 21.5659 0.108002C21.0977 0.00222969 19.8624 -0.025362 19.4224 0.057415Z"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M41.5993 0.986233C39.845 1.26676 38.0117 2.36127 36.4944 4.02602C34.5427 6.16445 33.2227 8.9927 32.7264 12.1107C32.5684 13.104 32.5853 15.3206 32.7546 16.222C33.1494 18.2776 33.9899 19.8504 35.2478 20.8713C36.3252 21.7543 37.6789 22.1636 39.0553 22.0302C42.3326 21.6991 45.5647 18.7835 47.2908 14.5986C48.7235 11.1265 48.8758 7.4705 47.7026 4.68365C46.5575 1.96577 44.2335 0.558546 41.5993 0.986233Z"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M5.21141 15.9966C2.90434 16.2956 1.16699 17.8132 0.382921 20.2229C-0.0626989 21.6071 -0.124747 23.5156 0.22498 25.1942C1.03161 29.1031 3.80686 32.6948 7.08978 34.0836C8.77073 34.7918 10.446 34.916 11.8844 34.4285C14.0054 33.7111 15.3986 31.8532 15.8555 29.1261C15.9458 28.5789 15.9458 26.9555 15.8499 26.3209C15.1166 21.253 11.2865 16.806 7.02773 16.0656C6.52571 15.9782 5.63447 15.9461 5.21141 15.9966Z"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M53.0137 19.7216C50.983 20.0757 48.9918 21.2392 47.3391 23.0419C45.5453 25.001 44.3382 27.5579 43.9885 30.1332C43.8982 30.8046 43.9152 32.2486 44.0167 32.8971C44.7049 37.2567 48.3375 39.3491 52.4496 37.7672C54.6552 36.9164 56.652 35.1643 58.0791 32.8327C60.7867 28.4178 60.6118 23.2442 57.6673 20.8483C56.4264 19.8365 54.7172 19.4226 53.0137 19.7216Z"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M28.508 27.9028C24.7738 28.4455 20.0638 31.6416 15.8896 36.4611C12.6236 40.2367 10.3222 44.302 9.63404 47.5212C9.47046 48.2938 9.45354 49.6734 9.6002 50.2022C9.83147 51.0254 10.2207 51.5681 10.9765 52.1429C12.2401 53.0949 13.7574 53.6559 15.6584 53.8721C16.6455 53.9824 18.6423 53.9411 19.9115 53.7847C21.6094 53.5686 23.0421 53.288 26.2517 52.5338C29.3541 51.8072 30.2228 51.6555 31.0802 51.7015C32.1689 51.7612 32.9868 51.9774 35.3333 52.819C37.0143 53.4214 37.9506 53.7065 38.7516 53.8675C41.7412 54.4561 44.257 53.6881 46.8461 51.3979C47.6189 50.7173 47.8558 50.3862 48.0984 49.6642C48.2337 49.2503 48.245 49.1583 48.245 48.188C48.245 47.3096 48.2281 47.0613 48.1153 46.5554C47.4497 43.488 45.4698 39.7814 42.6099 36.2542C39.2085 32.0601 35.2149 29.0387 31.8812 28.1419C30.6684 27.8154 29.6362 27.7418 28.508 27.9028Z"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              id="navMobileOpen"
+              class="cursor"
+            >
+              <circle
+                cx="30"
+                cy="30"
+                r="30"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M15.7148 20H44.2863"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.7148 30H44.2863"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M15.7148 40H44.2863"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="nav_window" id="nav" style="display: none">
+        <div class="wrapper nav_flex">
+          <nav>
+            <ul id="CloseMenu">
+              <li><a href="index.html">Главная</a></li>
+              <span class="array_animation cursor" id="navClose">
+                <svg
+                  class="array"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                >
+                  0
+                  <circle
+                    cx="21"
+                    cy="21"
+                    r="21"
+                    fill="#668BE9"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M19.9024 14L12 21M12 21L19.9024 28M12 21H30"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <svg
+                  class="array_hover"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                >
+                  0
+                  <circle
+                    cx="21"
+                    cy="21"
+                    r="21"
+                    fill="#3B6BE3"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M19.9024 14L12 21M12 21L19.9024 28M12 21H30"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </ul>
+          </nav>
+
+          <div class="nav_info">
+            <div class="footer_info__content nav_info">
+              <p class="title footer_title nav_title">Расписание</p>
+              <p class="footer_text">14:00 - 20:00</p>
+              <p class="footer_text weekday">
+                <span class="gray">Пн</span> Вт Ср
+                <span class="gray">Чт</span> Пт Сб Вс
+              </p>
+              <p class="title footer_title">Контакты</p>
+              <div class="email footer_contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <rect width="18" height="18" fill="url(#pattern0)" />
+                  <defs>
+                    <pattern
+                      id="pattern0"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1208_1671"
+                        transform="scale(0.00195312)"
+                      />
+                    </pattern>
+                    <image
+                      id="image0_1208_1671"
+                      width="512"
+                      height="512"
+                      xlink:href="data:image/png;base64,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"
+                    />
+                  </defs>
+                </svg>
+                <p class="footer_text">E - mail:</p>
+              </div>
+              <a href="404.html" class="footer_text footer_email"
+                >gavimur@.com
+              </a>
+              <div class="adress footer_contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="22"
+                  viewBox="0 0 18 22"
+                  fill="none"
+                  class="svg_adress__nav"
+                >
+                  <path
+                    d="M9 0C9 0 0 1.90735e-06 0 8.24942C0 8.24942 9.53674e-07 13.7506 9 22C9 22 18 13.7506 18 8.24942C17.9951 8.24942 17.9951 0 9 0ZM9 10.9977C7.3412 10.9977 5.99835 9.76491 5.99835 8.24942C5.99835 6.7293 7.3412 5.50116 9 5.50116C10.6588 5.50116 12.0016 6.73394 12.0016 8.24942C11.9967 9.76491 10.6539 10.9977 9 10.9977Z"
+                    fill="white"
+                  />
+                </svg>
+                <p class="footer_text">
+                  Калининградская обл., г. Зеленоградск, улица Окружная д. 7,
+                  оф. 3
+                </p>
+              </div>
+              <div class="tel footer_contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                >
+                  <path
+                    d="M13.2538 12.1893L12.7729 12.6954C12.7729 12.6954 11.6302 13.8985 8.51104 10.6145C5.3919 7.33068 6.53462 6.12759 6.53462 6.12759L6.83735 5.80885C7.58321 5.02366 7.65351 3.76302 7.00276 2.84272L5.67177 0.960147C4.8664 -0.178917 3.31017 -0.329387 2.38708 0.642455L0.730284 2.38676C0.272574 2.86865 -0.0341491 3.49331 0.00304865 4.18628C0.0982069 5.95911 0.855746 9.77351 5.08287 14.2239C9.56554 18.9433 13.7716 19.1308 15.4916 18.961C16.0357 18.9074 16.5088 18.614 16.89 18.2126L18.3896 16.634C19.4017 15.5683 19.1163 13.7414 17.8212 12.996L15.8046 11.8352C14.9542 11.3458 13.9183 11.4896 13.2538 12.1893Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <a href="404.html" class="footer_text">97 - 37 - 07</a>
+              </div>
+
+              <div class="social">
+                <span>
+                  <a href="404.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1432_2024)">
+                        <path
+                          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+                          fill="#4CAF50"
+                        />
+                        <path
+                          d="M20.0008 9.47363C18.0616 9.47437 16.1602 10.0108 14.5065 11.0238C12.8529 12.0367 11.5112 13.4868 10.6294 15.214C9.74773 16.9412 9.3603 18.8784 9.50988 20.8119C9.65947 22.7454 10.3403 24.6 11.4771 26.171L10.1614 30.0815L14.2114 28.7868C15.5815 29.6906 17.1439 30.2614 18.774 30.4537C20.404 30.6461 22.0564 30.4546 23.5993 29.8945C25.1421 29.3344 26.5326 28.4213 27.6597 27.2282C28.7867 26.035 29.6192 24.5947 30.0905 23.0225C30.5618 21.4503 30.6589 19.7897 30.3741 18.1732C30.0892 16.5568 29.4303 15.0293 28.45 13.7129C27.4697 12.3965 26.1951 11.3276 24.7281 10.5915C23.261 9.85541 21.6422 9.4726 20.0008 9.47363ZM25.5956 24.3605L24.4745 25.4815C23.2956 26.6605 20.1693 25.3631 17.3982 22.5868C14.6271 19.8105 13.385 16.6921 14.5061 15.5263L15.6271 14.4052C15.8442 14.2057 16.1283 14.0949 16.4232 14.0949C16.7181 14.0949 17.0022 14.2057 17.2193 14.4052L18.8719 16.0526C19.0066 16.1836 19.1055 16.347 19.159 16.5272C19.2125 16.7074 19.2188 16.8983 19.1773 17.0816C19.1358 17.2649 19.048 17.4345 18.9222 17.5741C18.7963 17.7137 18.6368 17.8187 18.4587 17.8789C18.1961 17.9628 17.9759 18.1448 17.8441 18.3869C17.7122 18.6291 17.6788 18.9127 17.7508 19.1789C18.0456 20.4157 19.6377 21.95 20.8193 22.2447C21.084 22.3002 21.3599 22.2584 21.5963 22.127C21.8327 21.9955 22.0137 21.7831 22.1061 21.5289C22.1657 21.3483 22.271 21.1862 22.4119 21.0585C22.5528 20.9307 22.7244 20.8417 22.91 20.8001C23.0956 20.7585 23.2888 20.7657 23.4707 20.821C23.6527 20.8763 23.8172 20.9779 23.9482 21.1157L25.5982 22.7684C25.7974 22.9858 25.9077 23.2701 25.9072 23.5649C25.9067 23.8598 25.7955 24.1437 25.5956 24.3605Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1432_2024">
+                          <rect width="40" height="40" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </span>
+                <span>
+                  <a href="404.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1432_2030)">
+                        <path
+                          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+                          fill="#4D76A1"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M19.2452 28.7716H20.815C20.815 28.7716 21.2892 28.7196 21.5312 28.4586C21.7541 28.219 21.7469 27.7691 21.7469 27.7691C21.7469 27.7691 21.7163 25.6628 22.6938 25.3526C23.6575 25.0471 24.895 27.3883 26.2066 28.2885C27.1985 28.9699 27.9521 28.8205 27.9521 28.8205L31.4592 28.7716C31.4592 28.7716 33.2939 28.6586 32.424 27.2161C32.3527 27.0981 31.9173 26.1491 29.8164 24.1989C27.6174 22.1578 27.9119 22.488 30.5608 18.9574C32.174 16.8072 32.819 15.4945 32.6176 14.9323C32.4254 14.3968 31.2389 14.5383 31.2389 14.5383L27.2901 14.5629C27.2901 14.5629 26.9974 14.523 26.7803 14.6528C26.5681 14.78 26.4316 15.0767 26.4316 15.0767C26.4316 15.0767 25.8066 16.7405 24.9731 18.1556C23.2147 21.1414 22.5117 21.299 22.2243 21.1136C21.5558 20.6815 21.7227 19.3777 21.7227 18.4515C21.7227 15.558 22.1616 14.3515 20.8681 14.0392C20.4389 13.9354 20.123 13.867 19.0253 13.8559C17.6163 13.8413 16.4237 13.8602 15.7485 14.1911C15.2993 14.411 14.9527 14.9013 15.1638 14.9294C15.4248 14.9644 16.0159 15.0888 16.3293 15.5155C16.7339 16.066 16.7197 17.3024 16.7197 17.3024C16.7197 17.3024 16.9521 20.7086 16.1767 21.1318C15.6444 21.422 14.9142 20.8295 13.3466 18.1206C12.5434 16.7331 11.937 15.1993 11.937 15.1993C11.937 15.1993 11.82 14.9127 11.6115 14.7594C11.3583 14.5736 11.0047 14.5144 11.0047 14.5144L7.2523 14.539C7.2523 14.539 6.689 14.5547 6.48222 14.7996C6.29825 15.0175 6.4676 15.4681 6.4676 15.4681C6.4676 15.4681 9.40531 22.3411 12.7316 25.8047C15.7817 28.9802 19.2452 28.7716 19.2452 28.7716Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1432_2030">
+                          <rect width="40" height="40" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </span>
+                <span>
+                  <a href="404.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1432_2035)">
+                        <path
+                          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
+                          fill="url(#paint0_linear_1432_2035)"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.0537 19.7889C14.8841 17.2487 18.772 15.574 20.7172 14.7649C26.2714 12.4548 27.4256 12.0535 28.1778 12.0402C28.3432 12.0373 28.7132 12.0783 28.9528 12.2728C29.3082 12.5612 29.3103 13.1873 29.2708 13.6017C28.9698 16.7642 27.6675 24.4386 27.0049 27.9806C26.7245 29.4794 26.1725 29.982 25.6381 30.0311C24.4767 30.138 23.5947 29.2635 22.4698 28.5262C20.7096 27.3723 19.7151 26.654 18.0064 25.5281C16.0318 24.2268 17.3119 23.5117 18.4372 22.3428C18.7317 22.037 23.849 17.3824 23.9481 16.9601C23.9605 16.9073 23.972 16.7104 23.855 16.6065C23.7381 16.5026 23.5655 16.5381 23.441 16.5664C23.2644 16.6064 20.4524 18.4651 15.0049 22.1423C14.2067 22.6904 13.4837 22.9574 12.836 22.9435C12.1218 22.9281 10.7482 22.5397 9.72706 22.2078C8.47456 21.8006 7.47909 21.5853 7.56581 20.8939C7.61097 20.5337 8.10691 20.1654 9.0537 19.7889Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1432_2035"
+                          x1="20"
+                          y1="0"
+                          x2="20"
+                          y2="39.6875"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#2AABEE" />
+                          <stop offset="1" stop-color="#229ED9" />
+                        </linearGradient>
+                        <clipPath id="clip0_1432_2035">
+                          <rect width="40" height="40" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="nav_window" id="navMobile" style="display: none">
+        <div class="wrapper nav_flex">
+          <div class="window_close cursor" id="navMobileClose">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+            >
+              <circle
+                cx="30"
+                cy="30"
+                r="30"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M16 20L44 40M44 20L30.2373 30L16.4746 40"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <nav>
+            <ul id="CloseMenuMobile">
+              <li><a href="index.html">Главная</a></li>
+
+              <li class="mobile_search">
+                <span class="svg search menu cursor" id="mobileSearch">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    id="searchMobileWhite"
+                  >
+                    <path
+                      d="M16.5507 17.867C15.8937 17.3707 10.1814 11.5043 10.1814 11.5043C9.69696 11.9033 9.13308 12.2163 8.48977 12.4431C7.84645 12.6699 7.15885 12.7834 6.42695 12.7834C4.63187 12.7834 3.11194 12.1608 1.86716 10.9157C0.622388 9.67057 0 8.16257 0 6.39169C0 4.6208 0.622828 3.1128 1.86848 1.86769C3.11414 0.622564 4.62549 0 6.40253 0C8.1796 0 9.68824 0.622564 10.9285 1.86769C12.1687 3.1128 12.7888 4.62161 12.7888 6.39413C12.7888 7.10538 12.6781 7.7808 12.4567 8.4204C12.2353 9.06 11.914 9.6484 11.4929 10.1856C11.4929 10.1856 17.3837 15.7089 17.8804 16.5398C18.3771 17.3707 17.2077 18.3633 16.5507 17.867ZM6.41206 10.9344C7.67261 10.9344 8.74225 10.4915 9.62099 9.60576C10.4997 8.71996 10.9391 7.6486 10.9391 6.39169C10.9391 5.13477 10.4995 4.06341 9.62041 3.17763C8.74129 2.29182 7.67184 1.84892 6.41206 1.84892C5.14324 1.84892 4.06564 2.29182 3.17927 3.17763C2.29291 4.06341 1.84973 5.13477 1.84973 6.39169C1.84973 7.6486 2.29272 8.71996 3.17871 9.60576C4.06469 10.4915 5.14247 10.9344 6.41206 10.9344Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    style="display: none"
+                    id="searchMobileBlack"
+                  >
+                    <path
+                      d="M16.5507 17.867C15.8937 17.3707 10.1814 11.5043 10.1814 11.5043C9.69696 11.9033 9.13308 12.2163 8.48977 12.4431C7.84645 12.6699 7.15885 12.7834 6.42695 12.7834C4.63187 12.7834 3.11194 12.1608 1.86716 10.9157C0.622388 9.67057 0 8.16257 0 6.39169C0 4.6208 0.622828 3.1128 1.86848 1.86769C3.11414 0.622564 4.62549 0 6.40253 0C8.1796 0 9.68824 0.622564 10.9285 1.86769C12.1687 3.1128 12.7888 4.62161 12.7888 6.39413C12.7888 7.10538 12.6781 7.7808 12.4567 8.4204C12.2353 9.06 11.914 9.6484 11.4929 10.1856C11.4929 10.1856 17.3837 15.7089 17.8804 16.5398C18.3771 17.3707 17.2077 18.3633 16.5507 17.867ZM6.41206 10.9344C7.67261 10.9344 8.74225 10.4915 9.62099 9.60576C10.4997 8.71996 10.9391 7.6486 10.9391 6.39169C10.9391 5.13477 10.4995 4.06341 9.62041 3.17763C8.74129 2.29182 7.67184 1.84892 6.41206 1.84892C5.14324 1.84892 4.06564 2.29182 3.17927 3.17763C2.29291 4.06341 1.84973 5.13477 1.84973 6.39169C1.84973 7.6486 2.29272 8.71996 3.17871 9.60576C4.06469 10.4915 5.14247 10.9344 6.41206 10.9344Z"
+                      fill="#545454"
+                    />
+                  </svg>
+
+                  <form action="#" style="display: none" id="searchMobileForm">
+                    <input type="text" />
+                    <input
+                      type="submit"
+                      value="Найти"
+                      class="mobileSearchButton"
+                    />
+                  </form>
+
+                  <span
+                    class="search_close"
+                    style="display: none"
+                    id="searchMobileClose"
+                    data-close="true"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      data-close="true"
+                      class="close_black"
+                    >
+                      <path
+                        data-close="true"
+                        d="M1.40579 13.6478L1.02367 13.7349C0.291312 13.9019 -0.270738 13.0908 0.142857 12.4638L5.58731 7.3596L0.142857 2.25542C-0.239359 1.50112 0.537276 0.684634 1.30975 1.02866L1.40579 1.07143L6.85024 6.1756L12.2947 1.07143L12.5109 0.985798C13.2911 0.676821 14.0097 1.54851 13.5576 2.25542L8.11317 7.3596L13.5576 12.4638C13.9909 13.2257 13.1742 14.0874 12.3902 13.6955L12.2947 13.6478L6.85024 8.54359L1.40579 13.6478Z"
+                        fill="#545454"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      class="close_whiter close_whiter__mobile"
+                      data-close="true"
+                    >
+                      <path
+                        d="M1.40579 13.6478L1.02367 13.7349C0.291312 13.9019 -0.270738 13.0908 0.142857 12.4638L5.58731 7.3596L0.142857 2.25542C-0.239359 1.50112 0.537276 0.684634 1.30975 1.02866L1.40579 1.07143L6.85024 6.1756L12.2947 1.07143L12.5109 0.985798C13.2911 0.676821 14.0097 1.54851 13.5576 2.25542L8.11317 7.3596L13.5576 12.4638C13.9909 13.2257 13.1742 14.0874 12.3902 13.6955L12.2947 13.6478L6.85024 8.54359L1.40579 13.6478Z"
+                        fill="white"
+                        data-close="true"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="nav_window" id="navInfoMobile" style="display: none">
+        <div class="wrapper nav_flex">
+          <div class="nav_info">
+            <div class="footer_info__content nav_info">
+              <p class="title footer_title nav_title">Расписание</p>
+              <p class="footer_text">14:00 - 20:00</p>
+              <p class="footer_text weekday">
+                <span class="gray">Пн</span> Вт Ср
+                <span class="gray">Чт</span> Пт Сб Вс
+              </p>
+              <p class="title footer_title">Контакты</p>
+              <div class="email footer_contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="15"
+                  viewBox="0 0 20 15"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.96802 4.05627e-07H16.032C16.4706 -8.96937e-06 16.8491 -1.84309e-05 17.1624 0.0200159C17.4922 0.0411191 17.8221 0.0875256 18.1481 0.214088C18.8831 0.499538 19.4672 1.04707 19.7716 1.7362C19.9066 2.04176 19.9561 2.35105 19.9787 2.66027C20 2.95395 20 3.30878 20 3.72001V11.28C20 11.6912 20 12.046 19.9787 12.3397C19.9561 12.6489 19.9066 12.9582 19.7716 13.2638C19.4672 13.9529 18.8831 14.5005 18.1481 14.7859C17.8221 14.9124 17.4922 14.9588 17.1624 14.98C16.8491 15 16.4706 15 16.032 15H3.96801C3.52936 15 3.15088 15 2.83762 14.98C2.50779 14.9588 2.17788 14.9124 1.85195 14.7859C1.11687 14.5005 0.53284 13.9529 0.22836 13.2638C0.0933604 12.9582 0.0438603 12.6489 0.0213503 12.3397C-1.96602e-05 12.046 -9.56733e-06 11.6912 4.32668e-07 11.28V3.72002C-9.56733e-06 3.30878 -1.96602e-05 2.95395 0.0213503 2.66027C0.0438603 2.35105 0.0933604 2.04176 0.22836 1.7362C0.53284 1.04707 1.11687 0.499538 1.85195 0.214088C2.17788 0.0875256 2.50779 0.0411191 2.83762 0.0200159C3.15088 -1.84309e-05 3.52937 -8.96937e-06 3.96802 4.05627e-07ZM2.31745 2.13541C2.68114 1.74576 3.3129 1.70627 3.72854 2.04722L9.3415 6.65156C9.7185 6.96084 10.2815 6.96084 10.6585 6.65156L16.2715 2.04722C16.6871 1.70627 17.3189 1.74576 17.6825 2.13541C18.0462 2.52507 18.0041 3.11735 17.5885 3.4583L11.9755 8.06269C10.8444 8.99053 9.1556 8.99053 8.0245 8.06269L2.41153 3.4583C1.99589 3.11735 1.95377 2.52507 2.31745 2.13541Z"
+                    fill="white"
+                  />
+                </svg>
+                <p class="footer_text">E - mail:</p>
+              </div>
+              <a href="404.html" class="footer_text footer_email"
+                >gavimur@.com
+              </a>
+              <div class="adress footer_contact">
+                <p class="footer_text nav_address__mobile">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="22"
+                    viewBox="0 0 18 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M9 0C9 0 0 1.90735e-06 0 8.24942C0 8.24942 9.53674e-07 13.7506 9 22C9 22 18 13.7506 18 8.24942C17.9951 8.24942 17.9951 0 9 0ZM9 10.9977C7.3412 10.9977 5.99835 9.76491 5.99835 8.24942C5.99835 6.7293 7.3412 5.50116 9 5.50116C10.6588 5.50116 12.0016 6.73394 12.0016 8.24942C11.9967 9.76491 10.6539 10.9977 9 10.9977Z"
+                      fill="white"
+                    />
+                  </svg>
+
+                  <span class="city_mobile">Калининградская обл.,</span><br />г.
+                  Зеленоградск, улица Окружная д. 7, оф. 3
+                </p>
+              </div>
+              <div class="tel footer_contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="29"
+                  height="29"
+                  viewBox="0 0 29 29"
+                  fill="none"
+                >
+                  <path
+                    d="M20.2294 18.6047L19.4956 19.3772C19.4956 19.3772 17.7514 21.2136 12.9905 16.2011C8.22974 11.1889 9.97389 9.35264 9.97389 9.35264L10.436 8.86614C11.5744 7.66768 11.6817 5.74356 10.6884 4.33888L8.65691 1.46549C7.42766 -0.273084 5.05237 -0.502748 3.64344 0.980589L1.11464 3.64295C0.416034 4.37846 -0.0521223 5.3319 0.0046532 6.38958C0.149895 9.09548 1.30614 14.9175 7.75807 21.7101C14.6 28.9134 21.0198 29.1997 23.6451 28.9405C24.4755 28.8587 25.1976 28.4109 25.7795 27.7981L28.0683 25.3887C29.6132 23.7621 29.1775 20.9737 27.2008 19.8361L24.1228 18.0643C22.8249 17.3173 21.2438 17.5367 20.2294 18.6047Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <a href="404.html" class="footer_text nav_tel__mobile"
+                  >97 - 37 - 07</a
+                >
+              </div>
+
+              <div class="social">
+                <span>
+                  <a href="404.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1432_2024)">
+                        <path
+                          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+                          fill="#4CAF50"
+                        />
+                        <path
+                          d="M20.0008 9.47363C18.0616 9.47437 16.1602 10.0108 14.5065 11.0238C12.8529 12.0367 11.5112 13.4868 10.6294 15.214C9.74773 16.9412 9.3603 18.8784 9.50988 20.8119C9.65947 22.7454 10.3403 24.6 11.4771 26.171L10.1614 30.0815L14.2114 28.7868C15.5815 29.6906 17.1439 30.2614 18.774 30.4537C20.404 30.6461 22.0564 30.4546 23.5993 29.8945C25.1421 29.3344 26.5326 28.4213 27.6597 27.2282C28.7867 26.035 29.6192 24.5947 30.0905 23.0225C30.5618 21.4503 30.6589 19.7897 30.3741 18.1732C30.0892 16.5568 29.4303 15.0293 28.45 13.7129C27.4697 12.3965 26.1951 11.3276 24.7281 10.5915C23.261 9.85541 21.6422 9.4726 20.0008 9.47363ZM25.5956 24.3605L24.4745 25.4815C23.2956 26.6605 20.1693 25.3631 17.3982 22.5868C14.6271 19.8105 13.385 16.6921 14.5061 15.5263L15.6271 14.4052C15.8442 14.2057 16.1283 14.0949 16.4232 14.0949C16.7181 14.0949 17.0022 14.2057 17.2193 14.4052L18.8719 16.0526C19.0066 16.1836 19.1055 16.347 19.159 16.5272C19.2125 16.7074 19.2188 16.8983 19.1773 17.0816C19.1358 17.2649 19.048 17.4345 18.9222 17.5741C18.7963 17.7137 18.6368 17.8187 18.4587 17.8789C18.1961 17.9628 17.9759 18.1448 17.8441 18.3869C17.7122 18.6291 17.6788 18.9127 17.7508 19.1789C18.0456 20.4157 19.6377 21.95 20.8193 22.2447C21.084 22.3002 21.3599 22.2584 21.5963 22.127C21.8327 21.9955 22.0137 21.7831 22.1061 21.5289C22.1657 21.3483 22.271 21.1862 22.4119 21.0585C22.5528 20.9307 22.7244 20.8417 22.91 20.8001C23.0956 20.7585 23.2888 20.7657 23.4707 20.821C23.6527 20.8763 23.8172 20.9779 23.9482 21.1157L25.5982 22.7684C25.7974 22.9858 25.9077 23.2701 25.9072 23.5649C25.9067 23.8598 25.7955 24.1437 25.5956 24.3605Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1432_2024">
+                          <rect width="40" height="40" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </span>
+                <span>
+                  <a href="404.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1432_2030)">
+                        <path
+                          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+                          fill="#4D76A1"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M19.2452 28.7716H20.815C20.815 28.7716 21.2892 28.7196 21.5312 28.4586C21.7541 28.219 21.7469 27.7691 21.7469 27.7691C21.7469 27.7691 21.7163 25.6628 22.6938 25.3526C23.6575 25.0471 24.895 27.3883 26.2066 28.2885C27.1985 28.9699 27.9521 28.8205 27.9521 28.8205L31.4592 28.7716C31.4592 28.7716 33.2939 28.6586 32.424 27.2161C32.3527 27.0981 31.9173 26.1491 29.8164 24.1989C27.6174 22.1578 27.9119 22.488 30.5608 18.9574C32.174 16.8072 32.819 15.4945 32.6176 14.9323C32.4254 14.3968 31.2389 14.5383 31.2389 14.5383L27.2901 14.5629C27.2901 14.5629 26.9974 14.523 26.7803 14.6528C26.5681 14.78 26.4316 15.0767 26.4316 15.0767C26.4316 15.0767 25.8066 16.7405 24.9731 18.1556C23.2147 21.1414 22.5117 21.299 22.2243 21.1136C21.5558 20.6815 21.7227 19.3777 21.7227 18.4515C21.7227 15.558 22.1616 14.3515 20.8681 14.0392C20.4389 13.9354 20.123 13.867 19.0253 13.8559C17.6163 13.8413 16.4237 13.8602 15.7485 14.1911C15.2993 14.411 14.9527 14.9013 15.1638 14.9294C15.4248 14.9644 16.0159 15.0888 16.3293 15.5155C16.7339 16.066 16.7197 17.3024 16.7197 17.3024C16.7197 17.3024 16.9521 20.7086 16.1767 21.1318C15.6444 21.422 14.9142 20.8295 13.3466 18.1206C12.5434 16.7331 11.937 15.1993 11.937 15.1993C11.937 15.1993 11.82 14.9127 11.6115 14.7594C11.3583 14.5736 11.0047 14.5144 11.0047 14.5144L7.2523 14.539C7.2523 14.539 6.689 14.5547 6.48222 14.7996C6.29825 15.0175 6.4676 15.4681 6.4676 15.4681C6.4676 15.4681 9.40531 22.3411 12.7316 25.8047C15.7817 28.9802 19.2452 28.7716 19.2452 28.7716Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1432_2030">
+                          <rect width="40" height="40" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </span>
+                <span>
+                  <a href="404.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_1514_2566)">
+                        <path
+                          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
+                          fill="url(#paint0_linear_1514_2566)"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.05175 19.7889C14.8821 17.2487 18.77 15.574 20.7153 14.7649C26.2695 12.4548 27.4236 12.0535 28.1758 12.0402C28.3413 12.0373 28.7112 12.0783 28.9508 12.2728C29.3063 12.5612 29.3083 13.1873 29.2689 13.6017C28.9678 16.7642 27.6655 24.4386 27.0029 27.9806C26.7225 29.4794 26.1705 29.982 25.6361 30.0311C24.4747 30.138 23.5928 29.2635 22.4678 28.5262C20.7076 27.3723 19.7132 26.654 18.0045 25.5281C16.0299 24.2268 17.31 23.5117 18.4353 22.3428C18.7298 22.037 23.8471 17.3824 23.9461 16.9601C23.9585 16.9073 23.97 16.7104 23.8531 16.6065C23.7361 16.5026 23.5635 16.5381 23.439 16.5664C23.2625 16.6064 20.4504 18.4651 15.0029 22.1423C14.2047 22.6904 13.4818 22.9574 12.834 22.9435C12.1199 22.9281 10.7463 22.5397 9.72511 22.2078C8.47261 21.8006 7.47714 21.5853 7.56386 20.8939C7.60902 20.5337 8.10495 20.1654 9.05175 19.7889Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1514_2566"
+                          x1="20"
+                          y1="0"
+                          x2="20"
+                          y2="39.6875"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#2AABEE" />
+                          <stop offset="1" stop-color="#229ED9" />
+                        </linearGradient>
+                        <clipPath id="clip0_1514_2566">
+                          <rect width="40" height="40" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="window_close cursor" id="navInfoMobileClose">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+            >
+              <circle
+                cx="30"
+                cy="30"
+                r="30"
+                fill="#668BE9"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M16 20L44 40M44 20L30.2373 30L16.4746 40"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="overflow_container" id="phonoButton">
+      <a href="404.html" class="advantage_right__order1 button_animation"
+        ><span class="svg tel menu color_hover cursor">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 22 18"
+            fill="none"
+          >
+            <path
+              d="M20.4885 18C17.9744 18 15.4939 17.5112 13.0471 16.5335C10.6003 15.5558 8.41146 14.2775 6.48047 12.6986C4.54947 11.1197  2.98664 9.32836 1.792 7.32471C0.597332 5.32105 0 3.29181 0 1.23697C0 0.887035 0.14502 0.593392 0.43506 0.356035C0.7251 0.118678 1.08392 0 1.51152 0H5.92972C6.30065 0 6.61671 0.0907438 6.87791 0.272232C7.13911 0.45372 7.30753 0.702585 7.38318 1.01883L8.1809 4.1235C8.23685 4.40748 8.23106 4.66121 8.16353 4.88468C8.09598 5.10816 7.95733 5.30116 7.74758 5.46367L4.74651 7.87992C5.74144 9.22769 6.88284 10.4248 8.1707 11.4713C9.45856 12.5179 10.9004 13.4109 12.4961 14.1505L15.3771 11.7574C15.6135 11.5569 15.8867 11.4156 16.1966 11.3334C16.5065 11.2513 16.8259 11.2392 17.1548 11.2973L20.7503 11.9383C21.1281 12.0083 21.4309 12.1547 21.6586 12.3775C21.8862 12.6004 22 12.8705 22 13.1881V16.7572C22 17.1097 21.855 17.405 21.5649 17.643C21.2749 17.881 20.9161 18 20.4885 18Z"
+              fill="white"
+            />
+          </svg>
+          <span class="flare"></span>
+        </span>
+      </a>
+    </div>
+    <!-- Контент -->
+    <div class="wrapper content content_servicesPage">
+      <div class="breadCrumbs">
+        <p class="breadCrumbs_text"><a href="index.html">Главная</a></p>
+        <p class="breadCrumbs_svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="15"
+            height="6"
+            viewBox="0 0 15 6"
+            fill="none"
+          >
+            <path
+              d="M14.7475 3.24749C14.8842 3.1108 14.8842 2.8892 14.7475 2.75251L12.5201 0.525126C12.3834 0.388443 12.1618 0.388443 12.0251 0.525126C11.8884 0.66181 11.8884 0.883418 12.0251 1.0201L14.005 3L12.0251 4.9799C11.8884 5.11658 11.8884 5.33819 12.0251 5.47487C12.1618 5.61156 12.3834 5.61156 12.5201 5.47487L14.7475 3.24749ZM0.5 3.35H14.5V2.65H0.5V3.35Z"
+              fill="#666666"
+            />
+          </svg>
+        </p>
+        <p class="breadCrumbs_text">Услуги и цены</p>
+        <p class="breadCrumbs_svg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="15"
+            height="6"
+            viewBox="0 0 15 6"
+            fill="none"
+          >
+            <path
+              d="M14.7475 3.24749C14.8842 3.1108 14.8842 2.8892 14.7475 2.75251L12.5201 0.525126C12.3834 0.388443 12.1618 0.388443 12.0251 0.525126C11.8884 0.66181 11.8884 0.883418 12.0251 1.0201L14.005 3L12.0251 4.9799C11.8884 5.11658 11.8884 5.33819 12.0251 5.47487C12.1618 5.61156 12.3834 5.61156 12.5201 5.47487L14.7475 3.24749ZM0.5 3.35H14.5V2.65H0.5V3.35Z"
+              fill="#666666"
+            />
+          </svg>
+        </p>
+        <div id="servicesPageBreadCrumbs">
+          <p
+            class="breadCrumbs_text breadCrumbs_text__active"
+            style="display: none"
+          >
+            <span class="mobile_none2">Услуги для кошек</span>
+            <span class="mobile_block2">Услуги..</span>
+          </p>
+
+          <p
+            class="breadCrumbs_text breadCrumbs_text__active"
+            style="display: none"
+          >
+            <span class="mobile_none2">Услуги для собак</span>
+            <span class="mobile_block2">Услуги..</span>
+          </p>
+        </div>
+      </div>
+
+      <p class="title">услуги и цены</p>
+
+      <div
+        class="catAndDog_button catAndDog_button__tablet servicesPage_button tablet_block"
+      >
+        <p id="catButtonTablet">Кошки</p>
+        <p id="dogButtonTablet">Собаки</p>
+      </div>
+
+      <div class="office office__tablet tablet_block" id="officeTablet">
+        <p class="office_button office_active">Терапия</p>
+        <p class="office_button">Вакцинация</p>
+        <p class="office_button">УЗИ</p>
+        <p class="office_button">Хирургия</p>
+        <p class="office_button">Анализы</p>
+        <p class="office_button">Стоматология</p>
+        <p class="office_button">Процедуры</p>
+      </div>
+
+      <div class="servicesPage_slider__tablet tablet_block">
+        <p
+          class="slider_array color_hover cursor array_animation"
+          id="servicesPageLeftTablet"
+        >
+          <svg
+            class="array"
+            xmlns="http://www.w3.org/2000/svg"
+            width="37"
+            height="38"
+            viewBox="0 0 37 38"
+            fill="none"
+          >
+            <path
+              d="M22 13L12 18.5L22 24"
+              stroke="#668BE9"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <svg
+            class="array_hover"
+            xmlns="http://www.w3.org/2000/svg"
+            width="37"
+            height="38"
+            viewBox="0 0 37 38"
+            fill="none"
+          >
+            <path
+              d="M22 13L12 18.5L22 24"
+              stroke="#fff"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </p>
+        <p
+          class="slider_array color_hover cursor array_animation"
+          id="servicesPageRightTablet"
+        >
+          <svg
+            class="array"
+            xmlns="http://www.w3.org/2000/svg"
+            width="37"
+            height="38"
+            viewBox="0 0 37 38"
+            fill="none"
+          >
+            <path
+              d="M15 13L25 18.5L15 24"
+              stroke="#668BE9"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="array_hover"
+            xmlns="http://www.w3.org/2000/svg"
+            width="37"
+            height="38"
+            viewBox="0 0 37 38"
+            fill="none"
+          >
+            <path
+              d="M15 13L25 18.5L15 24"
+              stroke="#fff"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </p>
+      </div>
+
+      <div class="servicesPage_content">
+        <div class="servicesPage_img mobile_none">
+          <div id="catImg" style="display: none">
+            <div class="animal_img">
+              <div class="animal_img__content">
+                <div>
+                  <img src="assets/img/services/cat/therapy.jpg" alt="" />
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/cat/vaccination.jpg" alt="" />
+                  <!-- <img style="display: none" src="assets/img/CatAndDog/cat.jpg" alt=""> -->
+                </div>
+                <div style="display: none">
+                  <img
+                    src="assets/img/services/cat/ultrasound_scan.jpg"
+                    alt=""
+                  />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/cat.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/11.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/cat/surgery.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/cat.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/11.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/12.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/cat/diagnostics.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/cat.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/11.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/12.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/13.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/cat/dentistry.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/cat.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/11.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/12.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/13.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/cat/procedures.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/cat.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/11.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/12.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/13.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/15.png"
+                    alt=""
+                  /> -->
+                </div>
+              </div>
+
+              <div class="animalImgArray" id="animalImgArray">
+                <div class="animal_img__left cursor" id="catImgLeft">
+                  <div class="animall_array">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="62"
+                      height="62"
+                      viewBox="0 0 62 62"
+                      fill="none"
+                    >
+                      <g filter="url(#filter0_d_1208_1471)">
+                        <circle
+                          cx="31"
+                          cy="27"
+                          r="21"
+                          fill="#668BE9"
+                          fill-opacity="0.8"
+                        />
+                        <path
+                          d="M34.9727 21.4185L23.6213 27.4974L34.9727 33.5764"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_d_1208_1471"
+                          x="0"
+                          y="0"
+                          width="62"
+                          height="62"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dy="4" />
+                          <feGaussianBlur stdDeviation="5" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0.15 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow_1208_1471"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow_1208_1471"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="animal_img__right cursor" id="catImgRight">
+                  <div class="animall_array">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="62"
+                      height="62"
+                      viewBox="0 0 62 62"
+                      fill="none"
+                    >
+                      <g filter="url(#filter0_d_1208_1470)">
+                        <circle
+                          cx="31"
+                          cy="27"
+                          r="21"
+                          fill="#668BE9"
+                          fill-opacity="0.8"
+                        />
+                        <path
+                          d="M27.0273 21.4185L38.3787 27.4974L27.0273 33.5764"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_d_1208_1470"
+                          x="0"
+                          y="0"
+                          width="62"
+                          height="62"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dy="4" />
+                          <feGaussianBlur stdDeviation="5" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0.15 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow_1208_1470"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow_1208_1470"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="animal_elips animal_elips__servicesPage"></div>
+            </div>
+          </div>
+          <div id="dogImg" style="display: none">
+            <div class="animal_img">
+              <div class="animal_img__content">
+                <div>
+                  <img src="assets/img/services/dog/therapy.jpg" alt="" />
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/dog/vaccination.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/dog.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img
+                    src="assets/img/services/dog/ultrasound_scan.jpg"
+                    alt=""
+                  />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/dog.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/21.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/dog/surgery.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/dog.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/21.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/22.webp"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/dog/diagnostics.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/dog.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/21.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/22.webp"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/23.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/dog/dentistry.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/dog.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/21.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/22.webp"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/23.jpg"
+                    alt=""
+                  /> -->
+                </div>
+                <div style="display: none">
+                  <img src="assets/img/services/dog/procedures.jpg" alt="" />
+                  <!-- <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/dog.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/21.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/22.webp"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/23.jpg"
+                    alt=""
+                  />
+                  <img
+                    style="display: none"
+                    src="assets/img/CatAndDog/24.jpg"
+                    alt=""
+                  /> -->
+                </div>
+              </div>
+
+              <div class="animalImgArray" id="animalImgArray">
+                <div class="animal_img__left cursor" id="dogImgLeft">
+                  <div class="animall_array">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="62"
+                      height="62"
+                      viewBox="0 0 62 62"
+                      fill="none"
+                    >
+                      <g filter="url(#filter0_d_1208_1471)">
+                        <circle
+                          cx="31"
+                          cy="27"
+                          r="21"
+                          fill="#668BE9"
+                          fill-opacity="0.8"
+                        />
+                        <path
+                          d="M34.9727 21.4185L23.6213 27.4974L34.9727 33.5764"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_d_1208_1471"
+                          x="0"
+                          y="0"
+                          width="62"
+                          height="62"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dy="4" />
+                          <feGaussianBlur stdDeviation="5" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0.15 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow_1208_1471"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow_1208_1471"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="animal_img__right cursor" id="dogImgRight">
+                  <div class="animall_array">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="62"
+                      height="62"
+                      viewBox="0 0 62 62"
+                      fill="none"
+                    >
+                      <g filter="url(#filter0_d_1208_1470)">
+                        <circle
+                          cx="31"
+                          cy="27"
+                          r="21"
+                          fill="#668BE9"
+                          fill-opacity="0.8"
+                        />
+                        <path
+                          d="M27.0273 21.4185L38.3787 27.4974L27.0273 33.5764"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_d_1208_1470"
+                          x="0"
+                          y="0"
+                          width="62"
+                          height="62"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha"
+                          />
+                          <feOffset dy="4" />
+                          <feGaussianBlur stdDeviation="5" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0 0.316667 0 0 0 0.15 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow_1208_1470"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow_1208_1470"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="animal_elips animal_elips__servicesPage"></div>
+            </div>
+          </div>
+          <div id="dogImg"></div>
+        </div>
+        <div class="servicesPage_info">
+          <div class="catAndDog_button servicesPage_button tablet_none">
+            <p id="catButton">Кошки</p>
+            <p id="dogButton">Собаки</p>
+          </div>
+
+          <div class="office tablet_none" id="office">
+            <p class="office_button office_active">Терапия</p>
+            <p class="office_button">Вакцинация</p>
+            <p class="office_button">УЗИ</p>
+            <p class="office_button">Хирургия</p>
+            <p class="office_button">Анализы</p>
+            <p class="office_button">Стоматология</p>
+            <p class="office_button">Процедуры</p>
+          </div>
+
+          <div id="catInfo" style="display: none">
+            <div>
+              <p class="servicesPage_title">Прием</p>
+              <p class="servicesPage_text">Первичный прием</p>
+              <p class="servicesPage_price">1 500 ₽</p>
+              <p class="servicesPage_text">Повторный прием</p>
+              <p class="servicesPage_price">700 ₽</p>
+              <p class="servicesPage_text">
+                Консультация без осмотра животного
+              </p>
+              <p class="servicesPage_price">700 ₽</p>
+              <p class="servicesPage_text">
+                Люминесцентная диагностика (лампой Вуду)
+              </p>
+              <p class="servicesPage_price">400 ₽</p>
+              <p class="servicesPage_text">Тонометрия</p>
+              <p class="servicesPage_price">500 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Вакцинация</p>
+              <p class="servicesPage_text">Комплексная вакцинация (импорт)</p>
+              <p class="servicesPage_price">от 2 000 ₽</p>
+              <p class="servicesPage_text">Комплексная вакцинация (РФ)</p>
+              <p class="servicesPage_price">от 1700 ₽</p>
+              <p class="servicesPage_text">Вакцинация от бешенства (импорт)</p>
+              <p class="servicesPage_price">от 950 ₽</p>
+              <p class="servicesPage_text">Вакцинация от бешенства (РФ)</p>
+              <p class="servicesPage_price">от 250 ₽</p>
+              <p class="servicesPage_title">Электронное чипирование</p>
+              <p class="servicesPage_text">
+                Электронное чипирование с внесением в международную базу
+              </p>
+              <p class="servicesPage_price">1500 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">УЗИ</p>
+              <p class="servicesPage_text">УЗИ одного органа / системы</p>
+              <p class="servicesPage_price">1 300 ₽</p>
+              <p class="servicesPage_text">УЗИ двух органов / систем</p>
+              <p class="servicesPage_price">1 600 ₽</p>
+              <p class="servicesPage_text">УЗИ брюшной полости (полное)</p>
+              <p class="servicesPage_price">2 500 ₽</p>
+              <p class="servicesPage_text">УЗИ сердца (эхокардиография)</p>
+              <p class="servicesPage_price">2 500 ₽</p>
+              <p class="servicesPage_text">
+                УЗИ сердца перед оперативным вмешательством в нашей клинике
+              </p>
+              <p class="servicesPage_price">1 500 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Кастрация</p>
+              <p class="servicesPage_text">Кастрация кота</p>
+              <p class="servicesPage_price">3 500 ₽</p>
+              <p class="servicesPage_text">Кастрация кошки</p>
+              <p class="servicesPage_price">6 500 ₽</p>
+              <p class="servicesPage_text">Кастрация кота - крипторха</p>
+              <p class="servicesPage_price">от 8 000 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Сбор материала</p>
+              <p class="servicesPage_text">
+                Взятие крови из вены, включая пробирку и иглу
+              </p>
+              <p class="servicesPage_price">450 ₽</p>
+              <p class="servicesPage_text">
+                Взятие биоматериала (соскоб, мазок, смыв)
+              </p>
+              <p class="servicesPage_price">250 ₽</p>
+              <p class="servicesPage_text">
+                Взятие пробы мочи катетером / цистоцентезом
+              </p>
+              <p class="servicesPage_price">от 1 000 ₽ / 850₽</p>
+              <p class="servicesPage_title">Исследование материала</p>
+              <p class="servicesPage_text">Общеклинический анализ мочи (ОАМ)</p>
+              <p class="servicesPage_price">600 ₽</p>
+              <p class="servicesPage_text">Общеклинический анализ крови</p>
+              <p class="servicesPage_price">900 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Санация ротовой полости</p>
+              <p class="servicesPage_text">
+                Ультразвуковая чистка зубов, полировка
+              </p>
+              <p class="servicesPage_price">от 4 500 ₽</p>
+              <p class="servicesPage_text">
+                Ультразвуковая чистка зубов, удаление больных зубов, полировка
+              </p>
+              <p class="servicesPage_price">от 6 500 ₽</p>
+              <p class="servicesPage_title">Удаление зубов</p>
+              <p class="servicesPage_text">Удаление временных зубов</p>
+              <p class="servicesPage_price">150 ₽ - 900 ₽ зуб</p>
+              <p class="servicesPage_text">Удаление постоянных зубов</p>
+              <p class="servicesPage_price">950 ₽ - 1 950 зуб</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Гигиенические процедуры</p>
+              <p class="servicesPage_text">Стрижка когтей</p>
+              <p class="servicesPage_price">300 ₽</p>
+              <p class="servicesPage_text">Опорожнение перианальных желез</p>
+              <p class="servicesPage_price">от 300 ₽</p>
+              <p class="servicesPage_text">Гигиеническая чистка ушей</p>
+              <p class="servicesPage_price">400 ₽</p>
+              <p class="servicesPage_title">Инъекции и инфузии</p>
+              <p class="servicesPage_text">
+                Инъекция внутримышечная / подкожная
+              </p>
+              <p class="servicesPage_price">150 ₽</p>
+              <p class="servicesPage_text">Инфузия подкожная</p>
+              <p class="servicesPage_price">от 480 ₽</p>
+            </div>
+          </div>
+
+          <div id="dogInfo" style="display: none">
+            <div>
+              <p class="servicesPage_title">Прием</p>
+              <p class="servicesPage_text">Первичный прием</p>
+              <p class="servicesPage_price">1 500 ₽</p>
+              <p class="servicesPage_text">Повторный прием</p>
+              <p class="servicesPage_price">700 ₽</p>
+              <p class="servicesPage_text">
+                Консультация без осмотра животного
+              </p>
+              <p class="servicesPage_price">700 ₽</p>
+              <p class="servicesPage_text">
+                Люминесцентная диагностика (лампой Вуду)
+              </p>
+              <p class="servicesPage_price">400 ₽</p>
+              <p class="servicesPage_text">Тонометрия</p>
+              <p class="servicesPage_price">500 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Вакцинация</p>
+              <p class="servicesPage_text">Комплексная вакцинация (импорт)</p>
+              <p class="servicesPage_price">от 2 000 ₽</p>
+              <p class="servicesPage_text">Комплексная вакцинация (РФ)</p>
+              <p class="servicesPage_price">от 1 800 ₽</p>
+              <p class="servicesPage_text">Вакцинация от бешенства (импорт)</p>
+              <p class="servicesPage_price">от 950 ₽</p>
+              <p class="servicesPage_text">Вакцинация от бешенства (РФ)</p>
+              <p class="servicesPage_price">от 550 ₽</p>
+              <p class="servicesPage_title">Электронное чипирование</p>
+              <p class="servicesPage_text">
+                Электронное чипирование с внесением в международную базу
+              </p>
+              <p class="servicesPage_price">1500 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">УЗИ</p>
+              <p class="servicesPage_text">УЗИ одного органа / системы</p>
+              <p class="servicesPage_price">1 300 ₽</p>
+              <p class="servicesPage_text">УЗИ двух органов / систем</p>
+              <p class="servicesPage_price">1 600 ₽</p>
+              <p class="servicesPage_text">УЗИ брюшной полости (полное)</p>
+              <p class="servicesPage_price">2 500 ₽</p>
+              <p class="servicesPage_text">УЗИ сердца (эхокардиография)</p>
+              <p class="servicesPage_price">2 500 ₽</p>
+              <p class="servicesPage_text">
+                УЗИ сердца перед оперативным вмешательством в нашей клинике
+              </p>
+              <p class="servicesPage_price">1 500 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Кастрация</p>
+              <p class="servicesPage_text">Кастрация кобеля</p>
+              <p class="servicesPage_price">от 9 000 ₽</p>
+              <p class="servicesPage_text">Кастрация кобеля -крипторха</p>
+              <p class="servicesPage_price">от 12 000 ₽</p>
+              <p class="servicesPage_text">Кастрация суки до 10 кг</p>
+              <p class="servicesPage_price">от 12 000 ₽</p>
+              <p class="servicesPage_text">Кастрация суки от 10 до 20 кг</p>
+              <p class="servicesPage_price">от 16 000 ₽</p>
+              <p class="servicesPage_text">Кастрация суки более 20 кг</p>
+              <p class="servicesPage_price">от 19 000 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Сбор материала</p>
+              <p class="servicesPage_text">
+                Взятие крови из вены, включая пробирку и иглу
+              </p>
+              <p class="servicesPage_price">450 ₽</p>
+              <p class="servicesPage_text">
+                Взятие биоматериала (соскоб, мазок, смыв)
+              </p>
+              <p class="servicesPage_price">250 ₽</p>
+              <p class="servicesPage_text">
+                Взятие пробы мочи катетером / цистоцентезом
+              </p>
+              <p class="servicesPage_price">от 1 000 ₽ / 850₽</p>
+              <p class="servicesPage_title">Исследование материала</p>
+              <p class="servicesPage_text">Общеклинический анализ мочи (ОАМ)</p>
+              <p class="servicesPage_price">600 ₽</p>
+              <p class="servicesPage_text">Общеклинический анализ крови</p>
+              <p class="servicesPage_price">900 ₽</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Санация ротовой полости</p>
+              <p class="servicesPage_text">
+                Ультразвуковая чистка зубов, полировка
+              </p>
+              <p class="servicesPage_price">от 4 500 ₽</p>
+              <p class="servicesPage_text">
+                Ультразвуковая чистка зубов, удаление больных зубов, полировка
+              </p>
+              <p class="servicesPage_price">от 6 500 ₽</p>
+              <p class="servicesPage_title">Удаление зубов</p>
+              <p class="servicesPage_text">Удаление временных зубов</p>
+              <p class="servicesPage_price">150 ₽ - 900 ₽ зуб</p>
+              <p class="servicesPage_text">Удаление постоянных зубов</p>
+              <p class="servicesPage_price">950 ₽ - 1 950 зуб</p>
+            </div>
+            <div style="display: none">
+              <p class="servicesPage_title">Гигиенические процедуры</p>
+              <p class="servicesPage_text">Стрижка когтей</p>
+              <p class="servicesPage_price">400 ₽</p>
+              <p class="servicesPage_text">Опорожнение перианальных желез</p>
+              <p class="servicesPage_price">от 300 ₽</p>
+              <p class="servicesPage_text">Гигиеническая чистка ушей</p>
+              <p class="servicesPage_price">400 ₽</p>
+              <p class="servicesPage_title">Инъекции и инфузии</p>
+              <p class="servicesPage_text">
+                Инъекция внутримышечная / подкожная
+              </p>
+              <p class="servicesPage_price">150 ₽</p>
+              <p class="servicesPage_text">Инфузия подкожная</p>
+              <p class="servicesPage_price">от 480 ₽</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stocks_link__block servicesPage_button__link">
+        <a href="pricePage.html">
+          <p class="stocks_link servicesPage_link__button color_hover cursor">
+            Полный прайс<span class="stocks_svg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="11"
+                viewBox="0 0 10 11"
+                fill="none"
+              >
+                <path
+                  d="M1.35156 1.5791L8.91913 5.63173L1.35156 9.68437"
+                  stroke="#7F9EEC"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_info">
+        <div class="footer_info__content" id="footerInfoContent">
+          <p class="title footer_title">Расписание</p>
+          <p class="footer_text">14:00 - 20:00</p>
+          <p class="footer_text weekday">
+            <span class="gray">Пн</span> Вт Ср <span class="gray">Чт</span> Пт
+            Сб Вс
+          </p>
+          <p class="title footer_title">Контакты</p>
+          <div class="email footer_contact">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="14"
+              viewBox="0 0 18 14"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.57122 3.78585e-07H14.4288C14.8235 -8.37141e-06 15.1642 -1.72034e-05 15.4462 0.0186815C15.743 0.0383778 16.0399 0.0816905 16.3333 0.199816C16.9948 0.466236 17.5205 0.977262 17.7944 1.62046C17.9159 1.90565 17.9605 2.19432 17.9808 2.48292C18 2.75702 18 3.08819 18 3.47201V10.528C18 10.9118 18 11.243 17.9808 11.5171C17.9605 11.8057 17.9159 12.0943 17.7944 12.3796C17.5205 13.0227 16.9948 13.5338 16.3333 13.8002C16.0399 13.9183 15.743 13.9616 15.4462 13.9814C15.1642 14 14.8235 14 14.4288 14H3.57121C3.17642 14 2.83579 14 2.55386 13.9814C2.25701 13.9616 1.96009 13.9183 1.66676 13.8002C1.00518 13.5338 0.479556 13.0227 0.205524 12.3796C0.0840243 12.0943 0.0394743 11.8057 0.0192153 11.5171C-1.76951e-05 11.243 -8.6106e-06 10.9118 3.89401e-07 10.528V3.47202C-8.6106e-06 3.0882 -1.76951e-05 2.75702 0.0192153 2.48292C0.0394743 2.19432 0.0840243 1.90565 0.205524 1.62046C0.479556 0.977262 1.00518 0.466236 1.66676 0.199816C1.96009 0.0816905 2.25701 0.0383778 2.55386 0.0186815C2.83579 -1.72034e-05 3.17643 -8.37141e-06 3.57122 3.78585e-07ZM2.08571 1.99305C2.41303 1.62937 2.98161 1.59252 3.35569 1.91074L8.40735 6.20813C8.74665 6.49679 9.25335 6.49679 9.59265 6.20813L14.6443 1.91074C15.0184 1.59252 15.587 1.62937 15.9143 1.99305C16.2416 2.35673 16.2037 2.90952 15.8296 3.22774L10.778 7.52517C9.75996 8.39116 8.24004 8.39116 7.22205 7.52517L2.17038 3.22774C1.7963 2.90952 1.75839 2.35673 2.08571 1.99305Z"
+                fill="white"
+              />
+            </svg>
+            <p class="footer_text">E - mail:</p>
+          </div>
+          <a href="404.html" class="footer_text footer_email">gavimur@.com </a>
+          <div class="adress footer_contact">
+            <p class="footer_text footer_margen__none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="22"
+                viewBox="0 0 18 22"
+                fill="none"
+              >
+                <path
+                  d="M9 0C9 0 0 1.90735e-06 0 8.24942C0 8.24942 9.53674e-07 13.7506 9 22C9 22 18 13.7506 18 8.24942C17.9951 8.24942 17.9951 0 9 0ZM9 10.9977C7.3412 10.9977 5.99835 9.76491 5.99835 8.24942C5.99835 6.7293 7.3412 5.50116 9 5.50116C10.6588 5.50116 12.0016 6.73394 12.0016 8.24942C11.9967 9.76491 10.6539 10.9977 9 10.9977Z"
+                  fill="white"
+                />
+              </svg>
+              <span class="footer_address_city">Калининградская обл.,</span> г.
+              Зеленоградск, улица Окружная д. 7, оф. 3
+            </p>
+          </div>
+          <div class="tel footer_contact">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+            >
+              <path
+                d="M13.2538 12.1893L12.7729 12.6954C12.7729 12.6954 11.6302 13.8985 8.51104 10.6145C5.3919 7.33067 6.53462 6.12759 6.53462 6.12759L6.83735 5.80885C7.58321 5.02365 7.65351 3.76302 7.00276 2.84272L5.67177 0.960147C4.8664 -0.178917 3.31017 -0.329386 2.38708 0.642455L0.730284 2.38676C0.272574 2.86865 -0.0341491 3.49331 0.00304865 4.18628C0.0982069 5.95911 0.855747 9.77351 5.08287 14.2239C9.56554 18.9433 13.7716 19.1308 15.4916 18.961C16.0357 18.9074 16.5088 18.614 16.89 18.2126L18.3896 16.634C19.4017 15.5683 19.1163 13.7414 17.8212 12.996L15.8046 11.8352C14.9542 11.3458 13.9183 11.4896 13.2538 12.1893Z"
+                fill="white"
+              />
+            </svg>
+            <a href="404.html" class="footer_text">97 - 37 - 07</a>
+          </div>
+
+          <div class="social">
+            <span>
+              <a href="404.html">
+                <img src="assets/img/svg/whatsapp.svg" alt="" />
+              </a>
+            </span>
+            <span>
+              <a href="404.html">
+                <img src="assets/img/svg/vk.svg" alt="" />
+              </a>
+            </span>
+            <span>
+              <a href="404.html">
+                <img src="assets/img/svg/telegram.svg" alt="" />
+              </a>
+            </span>
+          </div>
+          <div class="footer_footer">
+            <a href="404.html">Политика конфиденциальности</a>
+            <a href="404.html" class="ds">Made by DS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_map">
+        <script
+          type="text/javascript"
+          charset="utf-8"
+          async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A58639c62c4742eaf725946be93523de8268c2e2277ae8261243ddd5178e99ff8&amp;width=1200&amp;height=800&amp;lang=ru_RU&amp;scroll=true"
+        ></script>
+      </div>
+    </footer>
+
+    <script src="assets/js/function.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/menuMain.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/servicesPage.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/loader.js"></script>
+  </body>
+</html>
