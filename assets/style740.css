@@ -1,0 +1,840 @@
+.mobile_none {
+  display: none;
+}
+
+p.title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.wrapper {
+  width: 480px;
+}
+
+.mobile_block {
+  display: block;
+}
+
+.mobile_flex {
+  display: flex;
+}
+
+h1 {
+  width: 480px;
+}
+
+/*Main*/
+
+.main_button {
+  display: none;
+}
+
+.main_content {
+  flex-direction: column;
+}
+
+.maim_img {
+  width: 100%;
+  margin-left: 0px;
+  order: 1;
+}
+
+.main_info {
+  order: 2;
+}
+
+.main_text__div {
+  width: 344px;
+}
+
+p.main_info {
+  font-size: 18px;
+}
+
+.main_nav {
+  display: none;
+}
+
+.main_bottom {
+  margin-top: -14px;
+  flex-direction: column;
+}
+
+.advantage_right {
+  order: 1;
+}
+
+p.advantage_left {
+  order: 2;
+}
+
+.advantage_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage_right__order1 {
+  order: 1;
+}
+
+.advantage_right__order2 {
+  order: 2;
+}
+
+a.main_link {
+  margin-bottom: 0px;
+}
+
+span.tel {
+  margin-bottom: 54px;
+}
+
+p.main_advantage {
+  text-align: end;
+}
+
+p.main_advantage__right {
+  margin-bottom: 0px;
+}
+
+p.advantage_left {
+  margin-top: 40px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+p.nav_address__mobile {
+  margin-left: 0px;
+}
+
+span.city_mobile {
+  position: relative;
+  top: -6px;
+}
+
+/*Services*/
+
+.services_animal__img {
+  width: 212px;
+  height: 298px;
+}
+
+.services_content {
+  column-gap: 16px;
+  width: 440px;
+}
+
+.services_bottom {
+  margin-top: 0px;
+}
+
+a.animalButton {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 32px;
+  padding-top: 10px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+span.services_array {
+  width: 42px;
+  height: 42px;
+}
+
+.services_left {
+  align-items: flex-start;
+}
+
+p.services_advantage__title {
+  text-align: left;
+}
+
+p.services_advantage__right {
+  width: 340px;
+  text-align: left;
+  margin-left: 140px;
+}
+
+/*Stoks*/
+
+.stoks_slider {
+  width: 440px;
+}
+
+.stoks_content {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 375px;
+  padding: 30px;
+}
+
+.stoks_order {
+  order: 2;
+}
+
+.stoks_img {
+  order: 1;
+  width: 279px;
+  height: 277px;
+  margin-bottom: 30px;
+}
+
+.stoks_img__shadow {
+  width: 270px;
+  height: 270px;
+  top: 15px;
+  left: -10px;
+}
+
+.suppliers_logo__mobile img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.suppliers_content {
+  align-items: center;
+}
+
+/*doctors*/
+
+.doctors_content {
+  display: none;
+}
+
+.doctors_mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.doctors_card_array {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background-color: #668be9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.doctors_card_array__back {
+  top: -60px;
+}
+
+.doctors_card_front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+}
+
+.doctors_card_img {
+  width: 325px;
+  height: 455px;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.doctors_card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+p.practice_mobile {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #668be9;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 7px;
+  font-size: 10px;
+}
+
+p.certificate_mobile {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(244, 244, 244, 0.56);
+  color: #5f5f60;
+}
+
+.certificates_card_button_svg {
+  position: relative;
+  top: -20px;
+  left: 155px;
+}
+
+.certificates_card_button {
+  position: absolute;
+  left: 10px;
+  bottom: -40px;
+}
+
+.certificates_card_button__back {
+  bottom: 10px;
+}
+
+p.doctors_card_back__text {
+  width: 280px;
+  position: relative;
+  left: -22px;
+}
+
+.doctors_card_back {
+  height: 440px;
+  padding-top: 100px;
+}
+
+.doctors_card_back__content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.certificates_array__back {
+  width: 49px;
+  height: 49px;
+  background-color: #a0b7f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+  left: 145px;
+}
+
+p.doctors_card_back__text {
+  font-size: 12px;
+  width: 211px;
+  left: -43px;
+}
+
+.doctors_card_back {
+  background: #f2f2f3;
+}
+
+/*certificates*/
+p.certificates_text {
+  text-align: right;
+  width: 400px;
+  margin-left: 80px;
+}
+
+.certificates_foto__active {
+  width: 455px;
+  height: 455px;
+}
+
+.certificates_img {
+  width: 480px;
+}
+
+/*article*/
+
+.articles_content {
+  grid-template-columns: 1fr 1fr;
+}
+
+/*Contact*/
+
+.contact_button {
+  display: block;
+  margin-bottom: 0px;
+}
+
+p.place {
+  margin-bottom: 40px;
+}
+
+#Victoria {
+  margin-top: 10px;
+}
+#contactTitle {
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+}
+
+p.place_active {
+  margin-bottom: 30px;
+}
+
+p.before_active {
+  margin-bottom: 30px;
+}
+
+.step {
+  flex-direction: column;
+  margin-bottom: 170px;
+}
+
+.step_img {
+  order: 2;
+}
+
+.step_info {
+  order: 1;
+}
+
+.step_info {
+  width: 231px;
+  height: 324px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  border-radius: 20px;
+}
+
+.step_img {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  bottom: -196px;
+  left: 110px;
+}
+
+.step_img img {
+  border-radius: 20px;
+}
+
+.step {
+  position: relative;
+}
+
+.contact_array {
+  position: relative;
+  top: -80px;
+}
+
+.step_number {
+  left: 0px;
+  top: -280px;
+}
+
+.contact_slider {
+  margin-bottom: 140px;
+}
+
+/*Footer*/
+
+footer {
+  grid-template-columns: 1fr;
+}
+
+.footer_info__content {
+  width: 470px;
+  margin: 0 auto;
+}
+
+.footer_info {
+  padding-top: 50px;
+}
+
+p.footer_title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+p.footer_text,
+a.footer_text {
+  font-size: 16px;
+}
+
+.footer_footer a {
+  font-size: 10px;
+}
+
+.footer_map {
+  height: 640px;
+}
+
+/*doctors animation*/
+
+.doctors_card_container {
+  width: 325px;
+  height: 540px;
+  perspective: 1000px;
+}
+
+.doctors_card {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.6s 0.1s;
+}
+
+.doctors_card_front,
+.doctors_card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*    overflow: hidden;*/
+
+  backface-visibility: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors_card_front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.doctors_card_back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/*Header*/
+.mobile_flex_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a,
+nav ul li {
+  text-align: right;
+}
+
+.nav_flex {
+  justify-content: space-between;
+}
+
+/* .nav_info {
+  width: 252px;
+} */
+
+/*animation search*/
+
+.search form input[type="text"] {
+  width: 195px;
+}
+
+.search form input[type="submit"] {
+  padding: 12px 15px;
+}
+
+@keyframes border_open {
+  0% {
+    width: 60px;
+  }
+
+  100% {
+    width: 350px;
+  }
+}
+
+@keyframes border_close {
+  0% {
+    width: 350px;
+  }
+
+  100% {
+    width: 60px;
+  }
+}
+
+li.mobile_search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#mobileSearch {
+  margin: 0px;
+}
+
+.overflow_container {
+  height: 60px;
+}
+
+.word_four {
+  display: inline-block;
+}
+
+p.certificates_heading {
+  width: 400px;
+}
+
+.word_four {
+  margin-top: 35px;
+  margin-left: -377px;
+}
+
+/*Доработки*/
+
+a.nav_tel__mobile {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*Stock Page Content*/
+
+.stockPage_content__text {
+  width: 90%;
+}
+
+.stockPage_img div {
+  width: 142px;
+  height: 142px;
+}
+
+.stockPage_content {
+  display: block;
+}
+
+.stoks_slider__stockPage {
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 50px;
+}
+
+p.stockPage_title {
+  margin-bottom: 45px;
+}
+
+.stockPage_img div:nth-child(2) {
+  margin-top: -2px;
+  margin-left: -14px;
+}
+
+.stockPage_img div:nth-child(3) {
+  margin-top: -4px;
+  margin-left: -27px;
+}
+
+.stockPage_img {
+  margin-bottom: 70px;
+}
+
+.content {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/*Доработки главной страницы*/
+
+.array_doctors {
+  width: 48.397px;
+  height: 49px;
+  background-color: #a0b7f1;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Articles Page*/
+
+.articlesPage_header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.articlesPage_header div:nth-child(1) {
+  order: 2;
+}
+
+.articlesPage_header div:nth-child(2) {
+  order: 1;
+}
+
+.articlesPage_header {
+  margin-top: 40px;
+}
+
+.articlesPage_header__img {
+  width: 480px;
+  height: 193px;
+}
+
+.articlesPage_header__text .title {
+  width: 325px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.articlesPage_header__text .text {
+  width: 300px;
+  margin-left: 180px;
+  margin-bottom: 38px;
+}
+
+a.buttonLink_articlesPage {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 0px;
+}
+
+.articles_articlesPage {
+  margin-bottom: 0px;
+}
+
+.breadCrumbs_articleText {
+  flex-wrap: wrap;
+}
+
+p.title_articleText {
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+.title_img {
+  height: 190px;
+}
+
+.title_info {
+  height: 145px;
+  padding-top: 45px;
+}
+
+.articleText_header {
+  flex-direction: column;
+}
+p.articleText_header__title {
+  font-size: 26px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.articleText_header__author p {
+  order: 2;
+  width: 272px;
+  margin-left: 40px;
+}
+.articleText_header__author img {
+  margin-left: 0px;
+}
+.articleText_header__author {
+  margin-bottom: 24px;
+}
+
+element.style {
+}
+.articleText__text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.articleText_similar div:nth-child(2) {
+  display: block;
+}
+
+.articleText_similar div:nth-child(5) {
+  display: none;
+}
+
+.articleText_similar div {
+  width: 208px;
+}
+
+.articleText_similar div a .article_img {
+  height: 184px;
+}
+
+/*404*/
+
+.mistake_header img:nth-child(2) {
+  width: 170px;
+  height: 233px;
+}
+
+.mistake_header img:nth-child(1),
+.mistake_header img:nth-child(4) {
+  width: 60px;
+  height: 128px;
+  position: relative;
+}
+
+img.mistake_img {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+p.mistake_text {
+  font-size: 22px;
+  width: 380px;
+}
+
+.footer_map {
+  height: 500px;
+}
+
+/* Доработки */
+
+p.doctors_card_name {
+  width: 325px;
+}
+
+.block740 {
+  display: block;
+}
+
+.certificates_numbers__window {
+  flex-wrap: wrap;
+}
+
+.office_price {
+  flex-wrap: wrap;
+}
+
+p.stockPage_text {
+  min-height: 150px;
+}
+
+.mistake_content a {
+  margin-bottom: 0px;
+}
+
+.servicesPage_info {
+  min-height: 471px;
+}
+
+.city_mobile {
+  margin-left: 7px;
+}
+
+.main_info{
+  margin-bottom: 93px;
+}
+
+.stockPage_img div:nth-child(1) {
+  margin-top: 0px;
+  transform: rotate(-2deg);
+}
+
+.stockPage_img div:nth-child(2) {
+  margin-top: 5px;
+  transform: rotate(9deg);
+}
+
+.stockPage_img div:nth-child(3) {
+  margin-top: 10px;
+  transform: rotate(28deg);
+}
+
+.step img{
+  cursor: pointer;
+}
+

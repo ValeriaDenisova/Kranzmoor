@@ -1,0 +1,432 @@
+/*
+body{
+    overflow-x: hidden;
+}
+*/
+p.title {
+  margin-top: 50px;
+}
+
+.wrapper {
+  width: 720px;
+}
+
+.tablet2_none {
+  display: none;
+}
+
+.tablet2_block {
+  display: block;
+}
+
+/*Main*/
+
+a.map {
+  width: 180px;
+  position: relative;
+  z-index: 51;
+}
+
+a.tel {
+  z-index: 51;
+}
+
+.svg_map svg {
+  width: 26px;
+  height: 26px;
+}
+
+.maim_img {
+  width: 502px;
+  margin-left: -206px;
+  position: relative;
+  z-index: 1;
+}
+
+.main_text__tablet {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.main_text {
+  display: none;
+}
+
+a.main_link {
+  margin-bottom: 115px;
+}
+
+p.advantage_left {
+  width: 332px;
+}
+
+.main_button {
+  margin-right: -300px;
+}
+
+/*Services*/
+
+.services_animal__img {
+  width: 324px;
+  height: 455px;
+}
+
+.services_content {
+  column-gap: 60px;
+  width: 707px;
+}
+
+.services_bottom {
+  margin-top: 0px;
+}
+
+.services_advantage {
+  width: 363px;
+}
+
+/*Stocks*/
+.stoks_content {
+  width: 617px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+.stoks_img {
+  width: 208px;
+  height: 211px;
+}
+
+.stoks_img__shadow {
+  width: 195px;
+  height: 200px;
+  top: 20px;
+  left: -15px;
+}
+
+/*Suppliers*/
+
+.suppliers_logo__row {
+  width: 378px;
+}
+
+.monge {
+  top: 200px;
+  right: 50px;
+}
+
+.globalvet {
+  top: -163px;
+  left: -50px;
+}
+
+.zoetis {
+  position: relative;
+  bottom: 85px;
+}
+
+.suppliers_text {
+  width: 305px;
+}
+
+.suppliers_text__explanation {
+  width: 303px;
+}
+
+.elanko {
+  right: 355px;
+  bottom: 0px;
+}
+
+/*Doctors*/
+
+.doctor_img {
+  margin-left: 0px;
+  margin-right: 65px;
+  width: 325px;
+  height: 455px;
+}
+
+.doctor_text {
+  width: 319px;
+}
+
+.merits_group {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificates {
+  order: 2;
+}
+
+.experience {
+  order: 1;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.doctor_info {
+  align-items: flex-start;
+}
+
+.doctors_content {
+  position: relative;
+}
+
+#doctorsRight,
+#doctorsLeft {
+  position: absolute;
+}
+
+#doctorsLeft {
+  left: 0px;
+  top: 475px;
+}
+
+#doctorsRight {
+  left: 266px;
+  top: 475px;
+}
+
+/*certificates*/
+.certificates_foto__active {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.certificates_img {
+  width: 700px;
+  margin-left: 0px;
+}
+
+p.certificates_text {
+  margin-left: -500px;
+  width: 500px;
+}
+
+p.certificates_heading {
+  width: 450px;
+}
+
+/*article*/
+
+.article_img {
+  width: 208px;
+  height: 184px;
+}
+
+.article {
+  width: 208px;
+}
+
+p.article_title {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.articles_content {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*Contact*/
+p.place {
+  margin-right: 30px;
+  letter-spacing: -1.3px;
+  font-size: 24px;
+}
+
+p.place_active {
+  margin-right: 10px;
+}
+
+.step_img {
+  width: 291px;
+  height: 364px;
+}
+
+.step_info {
+  width: 251px;
+  height: 264px;
+}
+
+p.step_info__title {
+  margin-bottom: 30px;
+}
+
+.contact_slider {
+  margin-bottom: 100px;
+}
+
+.step_number {
+  left: 292px;
+  top: -90px;
+  width: 290px;
+}
+
+/*Footer*/
+
+footer {
+  grid-template-columns: 106fr 89fr;
+}
+
+.footer_footer {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+a.ds {
+  margin-bottom: 10px;
+}
+
+.footer_info__content {
+  width: 400px;
+}
+
+.footer_footer a {
+  bottom: 15px;
+}
+
+/*header*/
+p.nav_title {
+  margin-top: 0px;
+}
+
+.search form input[type="text"] {
+  width: 380px;
+}
+
+.word_second {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*Stock Page Content*/
+
+.stockPage_content__text {
+  width: 340px;
+}
+
+a.stockPage_button {
+  margin-bottom: 0px;
+}
+
+.stoks_slider__stockPage {
+  width: 300px;
+  margin-left: 420px;
+  margin-top: -70px;
+}
+
+.stockPage_img div {
+  width: 174px;
+  height: 177px;
+}
+
+.stockPage_img div:nth-child(2) {
+  margin-top: 90px;
+  margin-left: -122px;
+}
+
+.stockPage_img div:nth-child(3) {
+  margin-top: 212px;
+  margin-left: -134px;
+}
+
+.office__tablet p {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.animal_img__content div {
+  width: 323px;
+  height: 423px;
+}
+
+.animalImgArray {
+  width: 285px;
+}
+
+/*Articles Page*/
+
+.articlesPage_header__text .text {
+  width: 323px;
+}
+
+.articlesPage_header__text .title {
+  width: 330px;
+}
+
+.articlesPage_header__img {
+  width: 324px;
+  height: 295px;
+}
+
+.articlesPage_header {
+  margin-bottom: 60px;
+}
+
+.articles_articlesPage {
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+}
+
+.articles_articlesPage {
+  margin-bottom: 0px;
+}
+
+.articleText_similar div:nth-child(2) {
+  display: none;
+}
+
+p.title_articleText {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+p.articleText_header__title {
+  width: 277px;
+}
+
+.articleText_header {
+  align-items: flex-start;
+}
+.breadCrumbs_articleText {
+  margin-bottom: 45px;
+}
+
+/*404*/
+
+p.mistake_header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+p.mistake_text {
+  margin-bottom: 50px;
+}
+
+.footer_map {
+  height: 750px;
+}
+
+.article {
+  height: 284px;
+}
+
+/* Доработки */
+
+p.doctor_info__text {
+  min-height: 210px;
+}
+
+p.stockPage_text {
+  min-height: 180px;
+}
+
+.mistake_content a {
+  margin-bottom: 0px;
+}
