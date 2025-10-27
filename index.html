@@ -39,8 +39,8 @@
 
   <body>
     <div id="loader">
-      <div class="spinner"><img src="assets/img/loading.svg" alt=""></div>
-  </div>
+      <div class="spinner"><img src="assets/img/loading.svg" alt="" /></div>
+    </div>
     <a name="top"></a>
     <a class="button_top cursor" href="#top">
       <svg
@@ -881,7 +881,10 @@
             >
           </div>
           <div class="maim_img">
-            <img src="assets/img/gl_new.png" alt="" />
+            <picture>
+              <source srcset="assets/img/webp/gl_new.webp" type="image/webp" />
+              <img src="assets/img/gl_new.png" loading="lazy" />
+            </picture>
           </div>
         </div>
         <div class="wrapper main_bottom">
@@ -944,14 +947,31 @@
             <div class="services_animal">
               <div class="services_animal__img box">
                 <a href="servicesPage.html" id="CatLinkImg">
-                  <img
-                    src="assets/img/services/cat.jpeg"
-                    alt=""
-                    class="mobile_none2" /><img
-                    src="assets/img/services/cat.jpeg"
-                    alt=""
-                    class="mobile_block2"
-                /></a>
+                  <picture>
+                    <source
+                      srcset="assets/img/services/webp/cat.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/services/cat.jpeg"
+                      alt=""
+                      class="mobile_none2"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <picture>
+                    <source
+                      srcset="assets/img/services/webp/cat.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/services/cat.jpeg"
+                      alt=""
+                      class="mobile_block2"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
               </div>
               <div class="services_animal__link">
                 <a
@@ -989,15 +1009,32 @@
 
             <div class="services_animal">
               <div class="services_animal__img box">
-                <a href="servicesPage.html" id="DogLinkImg"
-                  ><img
-                    src="assets/img/services/dog.jpeg"
-                    alt=""
-                    class="mobile_none2" /><img
-                    src="assets/img/services/dog.jpeg"
-                    alt=""
-                    class="mobile_block2"
-                /></a>
+                <a href="servicesPage.html" id="DogLinkImg">
+                  <picture>
+                    <source
+                      srcset="assets/img/services/webp/dog.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/services/dog.jpeg"
+                      alt=""
+                      class="mobile_none2"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <picture>
+                    <source
+                      srcset="assets/img/services/webp/dog.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/services/dog.jpeg"
+                      alt=""
+                      class="mobile_block2"
+                      loading="lazy"
+                    />
+                  </picture>
+                </a>
               </div>
               <div class="services_animal__link">
                 <a
@@ -1127,7 +1164,13 @@
                 </div>
               </div>
               <div class="stoks_img">
-                <img src="assets/img/stocks/MarchCat/2.JPG" alt="" />
+                <picture>
+                  <source
+                    srcset="assets/img/stocks/MarchCat/webp/2.webp"
+                    type="image/webp"
+                  />
+                  <img src="assets/img/stocks/MarchCat/2.JPG" loading="lazy" />
+                </picture>
                 <div class="stoks_img__shadow">
                   <div class="stoks_img__shadowEffect"></div>
                 </div>
@@ -1186,7 +1229,16 @@
                 </div>
               </div>
               <div class="stoks_img">
-                <img src="assets/img/stocks/Echocardiography/2.JPG" alt="" />
+                <picture>
+                  <source
+                    srcset="assets/img/stocks/Echocardiography/webp/2.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/img/stocks/Echocardiography/2.JPG"
+                    loading="lazy"
+                  />
+                </picture>
                 <div class="stoks_img__shadow">
                   <div class="stoks_img__shadowEffect"></div>
                 </div>
@@ -1244,10 +1296,18 @@
                 </div>
               </div>
               <div class="stoks_img">
-                <img
-                  src="assets/img/stocks/PreoperativeExamination/2.JPG"
-                  alt=""
-                />
+                <picture>
+                  <source
+                    srcset="
+                      assets/img/stocks/PreoperativeExamination/webp/2.webp
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/img/stocks/PreoperativeExamination/2.JPG"
+                    loading="lazy"
+                  />
+                </picture>
                 <div class="stoks_img__shadow">
                   <div class="stoks_img__shadowEffect"></div>
                 </div>
@@ -1379,11 +1439,46 @@
             </div>
 
             <div class="mobile_block suppliers_logo__mobile">
-              <img src="assets/img/logo1.png" alt="" class="suppliers_logo1" />
-              <img src="assets/img/logo2.png" alt="" class="suppliers_logo2" />
-              <img src="assets/img/logo3.png" alt="" class="suppliers_logo3" />
-              <img src="assets/img/logo4.png" alt="" class="suppliers_logo4" />
-              <img src="assets/img/logo5.png" alt="" class="suppliers_logo5" />
+              <picture>
+                <source srcset="assets/img/webp/logo1.webp" type="image/webp" />
+                <img
+                  src="assets/img/logo1.png"
+                  alt=""
+                  class="suppliers_logo1"
+                />
+              </picture>
+              <picture>
+                <source srcset="assets/img/webp/logo2.webp" type="image/webp" />
+                <img
+                  src="assets/img/logo2.png"
+                  alt=""
+                  class="suppliers_logo2"
+                />
+              </picture>
+              <picture>
+                <source srcset="assets/img/webp/logo3.webp" type="image/webp" />
+                <img
+                  src="assets/img/logo3.png"
+                  alt=""
+                  class="suppliers_logo3"
+                />
+              </picture>
+              <picture>
+                <source srcset="assets/img/webp/logo4.webp" type="image/webp" />
+                <img
+                  src="assets/img/logo4.png"
+                  alt=""
+                  class="suppliers_logo4"
+                />
+              </picture>
+              <picture>
+                <source srcset="assets/img/webp/logo5.webp" type="image/webp" />
+                <img
+                  src="assets/img/logo5.png"
+                  alt=""
+                  class="suppliers_logo5"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -1439,7 +1534,17 @@
             <div id="doctors">
               <div class="doctor_info" style="display: none">
                 <div class="doctor_img">
-                  <img src="assets/img/staff/Plyugina.jpg" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/webp/Plyugina.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div class="doctor_text">
                   <p class="doctor_name heading">
@@ -1487,7 +1592,17 @@
 
               <div class="doctor_info" style="display: none">
                 <div class="doctor_img">
-                  <img src="assets/img/staff/Sidorenko.jpg" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/webp/Sidorenko.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div class="doctor_text">
                   <p class="doctor_name heading">
@@ -1534,7 +1649,17 @@
 
               <div class="doctor_info" style="display: none">
                 <div class="doctor_img">
-                  <img src="assets/img/staff/Slatina.jpg" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/webp/Slatina.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Slatina.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div class="doctor_text">
                   <p class="doctor_name heading">
@@ -1582,7 +1707,16 @@
 
               <div class="doctor_info" style="display: none">
                 <div class="doctor_img">
-                  <img src="assets/img/staff/Mikhalchenko.jpg" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/webp/Mikhalchenko.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Mikhalchenko.jpg"
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div class="doctor_text">
                   <p class="doctor_name heading">
@@ -1691,7 +1825,16 @@
                 <div class="doctors_card cursor" id="doctorsCard">
                   <div class="doctors_card_front" id="doctorsCardFront">
                     <div class="doctors_card_img">
-                      <img src="assets/img/staff/Plyugina.jpg" alt="" />
+                      <picture>
+                        <source
+                          srcset="assets/img/staff/webp/Plyugina.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/img/staff/Plyugina.jpg"
+                          loading="lazy"
+                        />
+                      </picture>
                       <div class="doctors_card_array" data-card="true">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1713,18 +1856,14 @@
                           />
                         </svg>
                       </div>
-                      <div
-                        class="certificates_card_button cursor"
-                      >
-                        <p class="practice_mobile text" >
+                      <div class="certificates_card_button cursor">
+                        <p class="practice_mobile text">
                           Более 10 лет практики
                         </p>
                         <p class="certificate_mobile text">
                           более 50 сертификатов
                         </p>
-                        <div
-                          class="certificates_card_button_svg"
-                        >
+                        <div class="certificates_card_button_svg">
                           <div class="array_doctors" data-card="false">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -1734,15 +1873,19 @@
                               fill="none"
                               data-card="false"
                             >
-                              <g clip-path="url(#clip0_1359_2578)" data-card="false">
+                              <g
+                                clip-path="url(#clip0_1359_2578)"
+                                data-card="false"
+                              >
                                 <path
                                   d="M5.36543 15.7556L15.235 1.01355M5.36543 15.7556L0.928223 4.25615M5.36543 15.7556L19.6601 17.0258"
-                                  stroke="white" data-card="false"
+                                  stroke="white"
+                                  data-card="false"
                                 />
                               </g>
                               <defs>
                                 <clipPath id="clip0_1359_2578">
-                                  <rect width="20" height="18" fill="white"/>
+                                  <rect width="20" height="18" fill="white" />
                                 </clipPath>
                               </defs>
                             </svg>
@@ -1768,7 +1911,10 @@
                         Санкт-Петербург по специальности ветеринария.
                       </p>
 
-                      <div class="doctors_card_array doctors_card_array__back" data-card="true">
+                      <div
+                        class="doctors_card_array doctors_card_array__back"
+                        data-card="true"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="31"
@@ -1779,11 +1925,13 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
@@ -1808,7 +1956,8 @@
                           >
                             <path
                               d="M5.3655 15.7557L15.2351 1.01361M5.3655 15.7557L0.928295 4.25621M5.3655 15.7557L19.6602 17.0259"
-                              stroke="white" data-card="false"
+                              stroke="white"
+                              data-card="false"
                             />
                           </svg>
                         </div>
@@ -1822,7 +1971,16 @@
                 <div class="doctors_card cursor">
                   <div class="doctors_card_front">
                     <div class="doctors_card_img">
-                      <img src="assets/img/staff/Sidorenko.jpg" alt="" />
+                      <picture>
+                        <source
+                          srcset="assets/img/staff/webp/Sidorenko.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/img/staff/Sidorenko.jpg"
+                          loading="lazy"
+                        />
+                      </picture>
                       <div class="doctors_card_array" data-card="true">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1834,26 +1992,22 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
-                      <div
-                        class="certificates_card_button cursor"
-                      >
-                        <p class="practice_mobile text">
-                          Более 4 лет практики
-                        </p>
+                      <div class="certificates_card_button cursor">
+                        <p class="practice_mobile text">Более 4 лет практики</p>
                         <p class="certificate_mobile text">
                           более 30 сертификатов
                         </p>
-                        <div
-                          class="certificates_card_button_svg"
-                        >
+                        <div class="certificates_card_button_svg">
                           <div class="array_doctors" data-card="false">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -1863,10 +2017,14 @@
                               fill="none"
                               data-card="false"
                             >
-                              <g clip-path="url(#clip0_1359_2578)" data-card="false">
+                              <g
+                                clip-path="url(#clip0_1359_2578)"
+                                data-card="false"
+                              >
                                 <path
                                   d="M5.36543 15.7556L15.235 1.01355M5.36543 15.7556L0.928223 4.25615M5.36543 15.7556L19.6601 17.0258"
-                                  stroke="white" data-card="false"
+                                  stroke="white"
+                                  data-card="false"
                                 />
                               </g>
                               <defs>
@@ -1894,7 +2052,10 @@
                         дерматологии и цитологии.
                       </p>
 
-                      <div class="doctors_card_array doctors_card_array__back" data-card="true">
+                      <div
+                        class="doctors_card_array doctors_card_array__back"
+                        data-card="true"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="31"
@@ -1905,11 +2066,13 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
-                          /> 
+                            fill="white"
+                            data-card="true"
+                          />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
@@ -1917,9 +2080,7 @@
                       <div
                         class="certificates_card_button certificates_card_button__back cursor"
                       >
-                        <p class="practice_mobile text">
-                          Более 4 лет практики
-                        </p>
+                        <p class="practice_mobile text">Более 4 лет практики</p>
                         <p class="certificate_mobile text">
                           более 30 сертификатов
                         </p>
@@ -1934,7 +2095,8 @@
                           >
                             <path
                               d="M5.3655 15.7557L15.2351 1.01361M5.3655 15.7557L0.928295 4.25621M5.3655 15.7557L19.6602 17.0259"
-                              stroke="white" data-card="false"
+                              stroke="white"
+                              data-card="false"
                             />
                           </svg>
                         </div>
@@ -1948,7 +2110,16 @@
                 <div class="doctors_card cursor">
                   <div class="doctors_card_front">
                     <div class="doctors_card_img">
-                      <img src="assets/img/staff/Slatina.jpg" alt="" />
+                      <picture>
+                        <source
+                          srcset="assets/img/staff/webp/Slatina.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/img/staff/Slatina.jpg"
+                          loading="lazy"
+                        />
+                      </picture>
                       <div class="doctors_card_array" data-card="true">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1960,26 +2131,22 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
-                      <div
-                        class="certificates_card_button cursor"
-                      >
-                        <p class="practice_mobile text">
-                          Более 2 лет практики
-                        </p>
+                      <div class="certificates_card_button cursor">
+                        <p class="practice_mobile text">Более 2 лет практики</p>
                         <p class="certificate_mobile text">
                           более 10 сертификатов
                         </p>
-                        <div
-                          class="certificates_card_button_svg"
-                        >
+                        <div class="certificates_card_button_svg">
                           <div class="array_doctors" data-card="false">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -1989,7 +2156,10 @@
                               fill="none"
                               data-card="false"
                             >
-                              <g clip-path="url(#clip0_1359_2578)" data-card="false">
+                              <g
+                                clip-path="url(#clip0_1359_2578)"
+                                data-card="false"
+                              >
                                 <path
                                   d="M5.36543 15.7556L15.235 1.01355M5.36543 15.7556L0.928223 4.25615M5.36543 15.7556L19.6601 17.0258"
                                   stroke="white"
@@ -2025,7 +2195,10 @@
                         посещает множество курсов и семинаров.
                       </p>
 
-                      <div class="doctors_card_array doctors_card_array__back" data-card="true">
+                      <div
+                        class="doctors_card_array doctors_card_array__back"
+                        data-card="true"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="31"
@@ -2036,11 +2209,13 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
@@ -2048,9 +2223,7 @@
                       <div
                         class="certificates_card_button certificates_card_button__back cursor"
                       >
-                        <p class="practice_mobile text">
-                          Более 2 лет практики
-                        </p>
+                        <p class="practice_mobile text">Более 2 лет практики</p>
                         <p class="certificate_mobile text">
                           более 10 сертификатов
                         </p>
@@ -2065,7 +2238,8 @@
                           >
                             <path
                               d="M5.3655 15.7557L15.2351 1.01361M5.3655 15.7557L0.928295 4.25621M5.3655 15.7557L19.6602 17.0259"
-                              stroke="white" data-card="false"
+                              stroke="white"
+                              data-card="false"
                             />
                           </svg>
                         </div>
@@ -2079,7 +2253,16 @@
                 <div class="doctors_card cursor">
                   <div class="doctors_card_front">
                     <div class="doctors_card_img">
-                      <img src="assets/img/staff/Mikhalchenko.jpg" alt="" />
+                      <picture>
+                        <source
+                          srcset="assets/img/staff/webp/Mikhalchenko.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="assets/img/staff/Mikhalchenko.jpg"
+                          loading="lazy"
+                        />
+                      </picture>
                       <div class="doctors_card_array" data-card="true">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -2091,26 +2274,22 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
-                      <div
-                        class="certificates_card_button cursor"
-                      >
-                        <p class="practice_mobile text">
-                          Более 2 лет практики
-                        </p>
+                      <div class="certificates_card_button cursor">
+                        <p class="practice_mobile text">Более 2 лет практики</p>
                         <p class="certificate_mobile text">
                           более 10 сертификатов
                         </p>
-                        <div
-                          class="certificates_card_button_svg"
-                        >
+                        <div class="certificates_card_button_svg">
                           <div class="array_doctors" data-card="false">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -2120,10 +2299,14 @@
                               fill="none"
                               data-card="false"
                             >
-                              <g clip-path="url(#clip0_1359_2578)" data-card="false">
+                              <g
+                                clip-path="url(#clip0_1359_2578)"
+                                data-card="false"
+                              >
                                 <path
                                   d="M5.36543 15.7556L15.235 1.01355M5.36543 15.7556L0.928223 4.25615M5.36543 15.7556L19.6601 17.0258"
-                                  stroke="white" data-card="false"
+                                  stroke="white"
+                                  data-card="false"
                                 />
                               </g>
                               <defs>
@@ -2151,7 +2334,10 @@
                         получила квалификацию “Кинолог”.
                       </p>
 
-                      <div class="doctors_card_array doctors_card_array__back" data-card="true">
+                      <div
+                        class="doctors_card_array doctors_card_array__back"
+                        data-card="true"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="31"
@@ -2162,11 +2348,13 @@
                         >
                           <path
                             d="M11.9917 7.96361V5.80008C11.9917 4.95224 11.0028 4.48909 10.3515 5.03186L4.3164 10.0611C3.83664 10.4609 3.83664 11.1978 4.3164 11.5975L10.3515 16.6268C11.0028 17.1696 11.9917 16.7064 11.9917 15.8586V13.695C17.7231 12.2622 22.0217 12.9786 26.3202 16.5608C23.4545 9.39647 18.4395 7.96361 11.9917 7.96361Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                           <path
                             d="M18.2536 26.9699L18.6041 29.1048C18.7415 29.9415 19.7923 30.2383 20.3471 29.5972L25.4877 23.6566C25.8963 23.1844 25.777 22.4573 25.2388 22.1405L18.4686 18.1554C17.738 17.7253 16.8372 18.3426 16.9746 19.1792L17.3251 21.3142C11.9015 23.6566 7.54365 23.6461 2.72153 20.8076C6.71006 27.413 11.8909 28.0145 18.2536 26.9699Z"
-                            fill="white" data-card="true"
+                            fill="white"
+                            data-card="true"
                           />
                         </svg>
                       </div>
@@ -2174,9 +2362,7 @@
                       <div
                         class="certificates_card_button certificates_card_button__back cursor"
                       >
-                        <p class="practice_mobile text">
-                          Более 2 лет практики
-                        </p>
+                        <p class="practice_mobile text">Более 2 лет практики</p>
                         <p class="certificate_mobile text">
                           более 10 сертификатов
                         </p>
@@ -2190,9 +2376,9 @@
                             data-card="false"
                           >
                             <path
-
                               d="M5.3655 15.7557L15.2351 1.01361M5.3655 15.7557L0.928295 4.25621M5.3655 15.7557L19.6602 17.0259"
-                              stroke="white" data-card="false"
+                              stroke="white"
+                              data-card="false"
                             />
                           </svg>
                         </div>
@@ -2222,212 +2408,373 @@
             </p>
           </div>
 
-          <div id="certificatesContent" style="display: none;">
+          <div id="certificatesContent" style="display: none">
             <div class="certificatesContent" style="display: none">
               <div class="certificates_img" id="certificatesImg">
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/1.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/1.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/1.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/2.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
-                  <div class="certificates_foto__opasity"></div>
-                </div>
-
-                <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/3.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
-                  <div class="certificates_foto__opasity"></div>
-                </div>
-
-                <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/4.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/2.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/2.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/5.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/3.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/3.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/6.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/4.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/4.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/7.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/5.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/5.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/8.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/6.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/6.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/9.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/7.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/7.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/10.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/8.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/8.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/11.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/9.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/9.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/12.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/10.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/10.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/13.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/11.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/11.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/14.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/12.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/12.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/15.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/13.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/13.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/16.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/14.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/14.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/17.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/15.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/15.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/18.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/16.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/16.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/19.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/17.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/17.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/20.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/18.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/18.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/21.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/19.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/19.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/22.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/20.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/20.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Plyugina/23.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/21.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/21.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <div class="certificates_foto__opasity"></div>
+                </div>
+
+                <div class="certificates_foto" style="display: none">
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/22.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/22.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <div class="certificates_foto__opasity"></div>
+                </div>
+
+                <div class="certificates_foto" style="display: none">
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Plyugina/webp/23.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Plyugina/23.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
@@ -2476,100 +2823,192 @@
             <div class="certificatesContent" style="display: none">
               <div class="certificates_img">
                 <div class="certificates_foto" style="display: none">
-                  <img src="assets/img/staff/Sidorenko/1.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/1.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/1.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
                 <div class="certificates_foto" style="display: none">
-                  <img src="assets/img/staff/Sidorenko/2.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/2.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/2.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/3.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
-                  <div class="certificates_foto__opasity"></div>
-                </div>
-
-                <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/4.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
-                  <div class="certificates_foto__opasity"></div>
-                </div>
-
-                <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/5.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
-                  <div class="certificates_foto__opasity"></div>
-                </div>
-
-                <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/6.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
-                  <div class="certificates_foto__opasity"></div>
-                </div>
-
-                <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/7.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/3.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/3.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/8.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/4.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/4.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/9.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/5.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/5.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/10.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/6.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/6.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/11.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/7.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/7.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Sidorenko/12.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/8.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/8.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <div class="certificates_foto__opasity"></div>
+                </div>
+
+                <div class="certificates_foto" style="display: none">
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/9.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/9.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <div class="certificates_foto__opasity"></div>
+                </div>
+
+                <div class="certificates_foto" style="display: none">
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/10.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/10.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <div class="certificates_foto__opasity"></div>
+                </div>
+
+                <div class="certificates_foto" style="display: none">
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/11.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/11.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <div class="certificates_foto__opasity"></div>
+                </div>
+
+                <div class="certificates_foto" style="display: none">
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Sidorenko/webp/12.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Sidorenko/12.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
@@ -2618,56 +3057,98 @@
             <div class="certificatesContent" style="display: none">
               <div class="certificates_img">
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Statina/1.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Statina/webp/1.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Statina/1.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Statina/2.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Statina/webp/2.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Statina/2.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Statina/3.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Statina/webp/3.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Statina/3.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Statina/4.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Statina/webp/4.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Statina/4.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Statina/5.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Statina/webp/5.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Statina/5.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Statina/6.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Statina/webp/6.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Statina/6.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
@@ -2716,47 +3197,82 @@
             <div class="certificatesContent" style="display: none">
               <div class="certificates_img">
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Mikhalchenko/1.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Mikhalchenko/webp/1.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Mikhalchenko/1.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Mikhalchenko/2.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Mikhalchenko/webp/2.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Mikhalchenko/2.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Mikhalchenko/3.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Mikhalchenko/webp/3.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Mikhalchenko/3.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Mikhalchenko/4.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Mikhalchenko/webp/4.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Mikhalchenko/4.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
                 <div class="certificates_foto" style="display: none">
-                  <img
-                    src="assets/img/staff/Mikhalchenko/5.png"
-                    alt=""
-                    class="certificates_foto"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/staff/Mikhalchenko/webp/5.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/staff/Mikhalchenko/5.png"
+                      alt=""
+                      class="certificates_foto"
+                      loading="lazy"
+                    />
+                  </picture>
                   <div class="certificates_foto__opasity"></div>
                 </div>
 
@@ -2853,7 +3369,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -2873,7 +3395,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st2.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st2.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st2.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -2895,7 +3423,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st3.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st3.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st3.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -2916,7 +3450,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st3.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st3.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st3.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -2937,7 +3477,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st2.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st2.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st2.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -2959,7 +3505,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st3.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st3.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st3.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -2980,7 +3532,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -3000,7 +3558,13 @@
               </a>
               <a href="articleText.html">
                 <div class="article_img">
-                  <img src="assets/img/st2.png" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/webp/st2.webp"
+                      type="image/webp"
+                    />
+                    <img src="assets/img/st2.png" alt="" loading="lazy" />
+                  </picture>
                 </div>
               </a>
               <a href="articleText.html">
@@ -3158,7 +3722,17 @@
               <div class="contact_content">
                 <div class="step">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_1.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_1.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_1.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 1</p>
@@ -3170,7 +3744,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_2.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_2.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_2.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 2</p>
@@ -3182,7 +3766,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_3.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_3.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_3.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 3</p>
@@ -3192,7 +3786,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_4.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_4.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_4.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 4</p>
@@ -3204,7 +3808,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_5.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_5.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_5.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 5</p>
@@ -3216,7 +3830,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_6.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_6.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_6.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 6</p>
@@ -3228,7 +3852,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_7.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_7.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_7.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 7</p>
@@ -3242,7 +3876,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_8.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_8.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_8.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 8</p>
@@ -3252,7 +3896,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/1/step_9.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/1/webp/step_9.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/1/step_9.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 9</p>
@@ -3262,7 +3916,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/10.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/10.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/10.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 10</p>
@@ -3275,7 +3939,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/11.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/11.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/11.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 11</p>
@@ -3287,7 +3961,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/12.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/12.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/12.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 12</p>
@@ -3297,7 +3981,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/13.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/13.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/13.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 13</p>
@@ -3307,7 +4001,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/14.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/14.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/14.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 14</p>
@@ -3317,7 +4021,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/15.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/15.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/15.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 15</p>
@@ -3327,7 +4041,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/16.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/16.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/16.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 16</p>
@@ -3420,7 +4144,17 @@
               <div class="contact_content">
                 <div class="step">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_1.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_1.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_1.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 1</p>
@@ -3432,7 +4166,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_2.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_2.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_2.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 2</p>
@@ -3444,7 +4188,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_3.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_3.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_3.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 3</p>
@@ -3455,7 +4209,17 @@
                 </div>
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_4.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_4.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_4.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 4</p>
@@ -3467,7 +4231,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_5.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_5.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_5.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 5</p>
@@ -3479,7 +4253,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_6.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_6.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_6.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 6</p>
@@ -3489,7 +4273,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/2/step_7.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/2/webp/step_7.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/2/step_7.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 7</p>
@@ -3503,7 +4297,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/10.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/10.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/10.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 8</p>
@@ -3516,7 +4320,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/11.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/11.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/11.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 9</p>
@@ -3528,7 +4342,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/12.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/12.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/12.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 10</p>
@@ -3538,7 +4362,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/13.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/13.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/13.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 11</p>
@@ -3548,7 +4382,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/14.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/14.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/14.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 12</p>
@@ -3558,7 +4402,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/15.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/15.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/15.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 13</p>
@@ -3568,7 +4422,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/car/16.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/car/webp/16.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/car/16.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 14</p>
@@ -3661,7 +4525,17 @@
               <div class="contact_content">
                 <div class="step">
                   <div class="step_img">
-                    <img src="assets/img/way/3/step_1.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/3/webp/step_1.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/3/step_1.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 1</p>
@@ -3673,7 +4547,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/3/step_2.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/3/webp/step_2.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/3/step_2.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 2</p>
@@ -3683,7 +4567,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/3/step_3.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/3/webp/step_3.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/3/step_3.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 3</p>
@@ -3693,7 +4587,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/3/step_4.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/3/webp/step_4.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/3/step_4.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 4</p>
@@ -3705,7 +4609,17 @@
 
                 <div class="step" style="display: none">
                   <div class="step_img">
-                    <img src="assets/img/way/3/step_5.JPG" alt="" />
+                    <picture>
+                      <source
+                        srcset="assets/img/way/3/webp/step_5.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="assets/img/way/3/step_5.JPG"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </div>
                   <div class="step_info">
                     <p class="step_info__title">Шаг 5</p>
@@ -3859,7 +4773,7 @@
           type="text/javascript"
           charset="utf-8"
           async
-          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A58639c62c4742eaf725946be93523de8268c2e2277ae8261243ddd5178e99ff8&amp;width=800&amp;height=800&amp;lang=ru_RU&amp;scroll=true"
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A58639c62c4742eaf725946be93523de8268c2e2277ae8261243ddd5178e99ff8&amp;width=1000&amp;height=800&amp;lang=ru_RU&amp;scroll=true"
         ></script>
       </div>
     </footer>
@@ -3878,7 +4792,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/footer.js"></script>
     <script src="assets/js/loader.js"></script>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="assets/js/animation.js"></script>
