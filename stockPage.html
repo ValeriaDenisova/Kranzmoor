@@ -40,8 +40,8 @@
 
   <body>
     <div id="loader">
-      <div class="spinner"><img src="assets/img/loading.svg" alt=""></div>
-  </div>
+      <div class="spinner"><img src="assets/img/loading.svg" alt="" /></div>
+    </div>
     <a name="top"></a>
     <a class="button_top cursor" href="#top">
       <svg
@@ -383,7 +383,9 @@
                   />
                 </svg>
 
-                <a href="tel:89114652333" class="footer_text">8-911-465-23-33</a>
+                <a href="tel:89114652333" class="footer_text"
+                  >8-911-465-23-33</a
+                >
               </div>
 
               <div class="social">
@@ -892,9 +894,45 @@
                 <span class="blue"></span>ВЕСЕННЯЯ АКЦИЯ МАРТОВСКИЙ КОТ
               </p>
               <div class="stockPage_img mobile_flex">
-                <div><img src="assets/img/stocks/MarchCat/1.JPG" alt="" /></div>
-                <div><img src="assets/img/stocks/MarchCat/2.JPG" alt="" /></div>
-                <div><img src="assets/img/stocks/MarchCat/3.JPG" alt="" /></div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="assets/img/stocks/MarchCat/webp/1.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/MarchCat/1.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="assets/img/stocks/MarchCat/webp/2.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/MarchCat/2.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="assets/img/stocks/MarchCat/webp/3.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/MarchCat/3.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
+                </div>
               </div>
               <p class="text stockPage_text">
                 Cкидка 10% на кастрацию котов возрастом от 6 месяцев до 1 года.
@@ -913,13 +951,43 @@
               </p>
               <div class="stockPage_img mobile_flex">
                 <div>
-                  <img src="assets/img/stocks/Echocardiography/1.JPG" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/stocks/Echocardiography/webp/1.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/Echocardiography/1.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div>
-                  <img src="assets/img/stocks/Echocardiography/2.JPG" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/stocks/Echocardiography/webp/2.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/Echocardiography/2.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div>
-                  <img src="assets/img/stocks/Echocardiography/3.JPG" alt="" />
+                  <picture>
+                    <source
+                      srcset="assets/img/stocks/Echocardiography/webp/3.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/Echocardiography/3.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
               </div>
               <p class="text stockPage_text">
@@ -939,22 +1007,49 @@
               </p>
               <div class="stockPage_img mobile_flex">
                 <div>
-                  <img
-                    src="assets/img/stocks/PreoperativeExamination/1.JPG"
-                    alt=""
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        assets/img/stocks/PreoperativeExamination/webp/1.webp
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/PreoperativeExamination/1.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div>
-                  <img
-                    src="assets/img/stocks/PreoperativeExamination/2.JPG"
-                    alt=""
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        assets/img/stocks/PreoperativeExamination/webp/2.webp
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/PreoperativeExamination/2.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div>
-                  <img
-                    src="assets/img/stocks/PreoperativeExamination/3.JPG"
-                    alt=""
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        assets/img/stocks/PreoperativeExamination/webp/3.webp
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      src="assets/img/stocks/PreoperativeExamination/3.JPG"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
               </div>
               <p class="text stockPage_text">
@@ -977,41 +1072,128 @@
         </div>
         <div class="mobile_none" id="stockPageImg">
           <div class="stockPage_img">
-            <div><img src="assets/img/stocks/MarchCat/1.JPG" alt="" /></div>
-            <div><img src="assets/img/stocks/MarchCat/2.JPG" alt="" /></div>
-            <div><img src="assets/img/stocks/MarchCat/3.JPG" alt="" /></div>
+            <div>
+              <picture>
+                <source
+                  srcset="assets/img/stocks/MarchCat/webp/1.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/MarchCat/1.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <div>
+              <picture>
+                <source
+                  srcset="assets/img/stocks/MarchCat/webp/2.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/MarchCat/2.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <div>
+              <picture>
+                <source
+                  srcset="assets/img/stocks/MarchCat/webp/3.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/MarchCat/3.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
+            </div>
           </div>
 
           <div class="stockPage_img" style="display: none">
             <div>
-              <img src="assets/img/stocks/Echocardiography/1.JPG" alt="" />
+              <picture>
+                <source
+                  srcset="assets/img/stocks/Echocardiography/webp/1.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/Echocardiography/1.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div>
-              <img src="assets/img/stocks/Echocardiography/2.JPG" alt="" />
+              <picture>
+                <source
+                  srcset="assets/img/stocks/Echocardiography/webp/2.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/Echocardiography/2.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div>
-              <img src="assets/img/stocks/Echocardiography/3.JPG" alt="" />
+              <picture>
+                <source
+                  srcset="assets/img/stocks/Echocardiography/webp/3.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/Echocardiography/3.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
             </div>
           </div>
 
           <div class="stockPage_img" style="display: none">
             <div>
-              <img
-                src="assets/img/stocks/PreoperativeExamination/1.JPG"
-                alt=""
-              />
+              <picture>
+                <source
+                  srcset="assets/img/stocks/PreoperativeExamination/webp/1.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/PreoperativeExamination/1.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div>
-              <img
-                src="assets/img/stocks/PreoperativeExamination/2.JPG"
-                alt=""
-              />
+              <picture>
+                <source
+                  srcset="assets/img/stocks/PreoperativeExamination/webp/2.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/PreoperativeExamination/2.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div>
-              <img
-                src="assets/img/stocks/PreoperativeExamination/3.JPG"
-                alt=""
-              />
+              <picture>
+                <source
+                  srcset="assets/img/stocks/PreoperativeExamination/webp/3.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="assets/img/stocks/PreoperativeExamination/3.JPG"
+                  alt=""
+                  loading="lazy"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -1126,7 +1308,9 @@
             </svg>
             <p class="footer_text">E - mail:</p>
           </div>
-          <a href="mailto:info@gavimur.ru" class="footer_text footer_email">info@gavimur.ru </a>
+          <a href="mailto:info@gavimur.ru" class="footer_text footer_email"
+            >info@gavimur.ru
+          </a>
           <div class="adress footer_contact">
             <p class="footer_text footer_margen__none">
               <svg
